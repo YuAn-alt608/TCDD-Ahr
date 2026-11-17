@@ -1,0 +1,48 @@
+{
+  "peaks": {
+    "ahr_tcdd": 61,
+    "ahr_dmso": 262,
+    "tcf21_tcdd": 1020
+  },
+  "genes": {
+    "ahr_tcdd_50kb": 7743,
+    "ahr_tcdd_prom": 818,
+    "ahr_dmso_50kb": 85,
+    "tcf21_tcdd": 131
+  },
+  "classic_targets_recovered": {
+    "CYP1A1": [
+      0,
+      2
+    ],
+    "AHRR": [
+      0,
+      4
+    ],
+    "CYP1B1": [
+      0,
+      0
+    ],
+    "TIPARP": [
+      0,
+      0
+    ],
+    "NQO1": [
+      0,
+      0
+    ]
+  },
+  "smc_mean_delta_bound": 0.02690615683901467,
+  "smc_mean_delta_other": 0.023553936546960825,
+  "perm_p": 0.000999000999000999,
+  "n_perm": 1000,
+  "het_x_bound": {
+    "a": 704,
+    "b": 1603,
+    "c": 6362,
+    "d": 12147,
+    "odds_ratio": 0.8385220810634257,
+    "p": 0.00020915959084233393
+  },
+  "note": "peaks are hg38, ATAC is mm10; comparison is at orthologous-promoter level, not by liftover"
+}

@@ -1,0 +1,31 @@
+{
+ "n_testable": 0,
+ "n_total": 4,
+ "endpoints": [
+  [
+   "ATAC",
+   "Parenchyma",
+   "frac_het",
+   "SMC H3K9me3 域开放"
+  ],
+  [
+   "ATAC",
+   "Endothelial",
+   "prom_het_rel",
+   "内皮异染色质启动子相对开放"
+  ],
+  [
+   "RNA",
+   "Endothelial",
+   "het_derepression",
+   "内皮异染色质去抑制模块"
+  ],
+  [
+   "RNA",
+   "Macrophage",
+   "LAM",
+   "髓系 LAM 模块"
+  ]
+ ],
+ "note": "H1 = KO vs Control (2 vs 3, pooled t, Holm); H2 = KO-WT bootstrap CI, no p."
+}

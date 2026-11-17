@@ -1,0 +1,7 @@
+{
+  "n_frozen_endpoints": 12,
+  "direction_preserved_at_ako_depth": "12/12",
+  "max_abs_attenuation_pct_match_ako": 153.2,
+  "method": "binomial thinning of the count matrix per cell; equivalent to multinomial read downsampling. Fragments/BAMs are not released for GSE276870/276872, so this is NOT fragment-level downsampling and the report says so.",
+  "note": "ATAC sigma is |c1-c2|/sqrt(2)*1.5 (df=1) and is held fixed across targets, so the attenuation column reflects delta only. RNA sigma is the pooled between-animal SD of the Control and 8-week arms, also held fixed."
+}

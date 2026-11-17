@@ -1,0 +1,220 @@
+{
+ "n_cells": 11756,
+ "n_donors": 8,
+ "donor_variance_share": {
+  "LAM": 0.11,
+  "ECpanel": 0.056,
+  "Matrix": 0.1,
+  "ModSMC": 0.159
+ },
+ "within_donor": [
+  {
+   "donor": 1,
+   "n_cells": 530,
+   "LAM|Matrix": 0.5615,
+   "ECpanel|Matrix": 0.3257,
+   "ECpanel|LAM": 0.5138
+  },
+  {
+   "donor": 2,
+   "n_cells": 262,
+   "LAM|Matrix": 0.6456,
+   "ECpanel|Matrix": 0.4348,
+   "ECpanel|LAM": 0.493
+  },
+  {
+   "donor": 3,
+   "n_cells": 1491,
+   "LAM|Matrix": 0.416,
+   "ECpanel|Matrix": 0.0605,
+   "ECpanel|LAM": 0.1567
+  },
+  {
+   "donor": 4,
+   "n_cells": 1400,
+   "LAM|Matrix": 0.4322,
+   "ECpanel|Matrix": 0.0914,
+   "ECpanel|LAM": 0.1963
+  },
+  {
+   "donor": 5,
+   "n_cells": 1847,
+   "LAM|Matrix": 0.3301,
+   "ECpanel|Matrix": -0.0063,
+   "ECpanel|LAM": 0.1497
+  },
+  {
+   "donor": 6,
+   "n_cells": 2385,
+   "LAM|Matrix": 0.4934,
+   "ECpanel|Matrix": 0.0839,
+   "ECpanel|LAM": 0.2146
+  },
+  {
+   "donor": 7,
+   "n_cells": 2089,
+   "LAM|Matrix": 0.4078,
+   "ECpanel|Matrix": 0.0664,
+   "ECpanel|LAM": 0.2065
+  },
+  {
+   "donor": 8,
+   "n_cells": 1752,
+   "LAM|Matrix": -0.0208,
+   "ECpanel|Matrix": -0.1458,
+   "ECpanel|LAM": 0.3703
+  }
+ ],
+ "within_donor_tests": {
+  "LAM|Matrix > ECpanel|Matrix": {
+   "median_diff": 0.33859576493648474,
+   "n_donors": 8,
+   "n_positive": 8,
+   "p_wilcoxon": 0.00390625
+  },
+  "LAM|Matrix > ECpanel|LAM": {
+   "median_diff": 0.19085896206397987,
+   "n_donors": 8,
+   "n_positive": 7,
+   "p_wilcoxon": 0.09765625
+  }
+ },
+ "donor_fixed_effects": {
+  "LAM|Matrix": 0.3490957890836211,
+  "ECpanel|Matrix": 0.04536760850952678,
+  "ECpanel|LAM": 0.24085618698348818
+ },
+ "partial_depth_ribo_mito_donor": {
+  "LAM|Matrix": 0.13742899267608272,
+  "ECpanel|Matrix": -0.021365129002811713,
+  "ECpanel|LAM": 0.16943433595303017
+ },
+ "stratified_donor_centred": [
+  {
+   "compartment": "EC",
+   "n_cells": 1876,
+   "LAM|Matrix": 0.0902,
+   "ECpanel|Matrix": -0.0169,
+   "ECpanel|LAM": 0.0638
+  },
+  {
+   "compartment": "Fib",
+   "n_cells": 2833,
+   "LAM|Matrix": 0.1599,
+   "ECpanel|Matrix": 0.0142,
+   "ECpanel|LAM": 0.0594
+  },
+  {
+   "compartment": "Mac",
+   "n_cells": 2079,
+   "LAM|Matrix": 0.2203,
+   "ECpanel|Matrix": -0.0019,
+   "ECpanel|LAM": 0.0511
+  },
+  {
+   "compartment": "SMC",
+   "n_cells": 2557,
+   "LAM|Matrix": 0.1452,
+   "ECpanel|Matrix": 0.0214,
+   "ECpanel|LAM": 0.0326
+  },
+  {
+   "compartment": "T",
+   "n_cells": 1060,
+   "LAM|Matrix": 0.2418,
+   "ECpanel|Matrix": -0.0184,
+   "ECpanel|LAM": 0.0895
+  },
+  {
+   "compartment": "other",
+   "n_cells": 1351,
+   "LAM|Matrix": 0.5036,
+   "ECpanel|Matrix": 0.1543,
+   "ECpanel|LAM": 0.1552
+  }
+ ],
+ "stratified_partial": [
+  {
+   "compartment": "EC",
+   "n_cells": 1876,
+   "LAM|Matrix": 0.0478,
+   "ECpanel|Matrix": -0.0634,
+   "ECpanel|LAM": 0.0283
+  },
+  {
+   "compartment": "Fib",
+   "n_cells": 2833,
+   "LAM|Matrix": 0.097,
+   "ECpanel|Matrix": -0.045,
+   "ECpanel|LAM": 0.0019
+  },
+  {
+   "compartment": "Mac",
+   "n_cells": 2079,
+   "LAM|Matrix": 0.4484,
+   "ECpanel|Matrix": -0.0554,
+   "ECpanel|LAM": -0.0432
+  },
+  {
+   "compartment": "SMC",
+   "n_cells": 2557,
+   "LAM|Matrix": 0.01,
+   "ECpanel|Matrix": -0.0501,
+   "ECpanel|LAM": 0.0392
+  },
+  {
+   "compartment": "T",
+   "n_cells": 1060,
+   "LAM|Matrix": 0.3185,
+   "ECpanel|Matrix": 0.0119,
+   "ECpanel|LAM": 0.0407
+  },
+  {
+   "compartment": "other",
+   "n_cells": 1351,
+   "LAM|Matrix": 0.4954,
+   "ECpanel|Matrix": 0.0589,
+   "ECpanel|LAM": 0.1121
+  }
+ ],
+ "cluster_bootstrap": {
+  "LAM|Matrix": {
+   "median": 0.3528329099398308,
+   "lo": 0.18637878230492802,
+   "hi": 0.4689896677870824,
+   "frac_negative": 0.0
+  },
+  "ECpanel|Matrix": {
+   "median": 0.04678802441130316,
+   "lo": -0.022035370608913238,
+   "hi": 0.10763061000818651,
+   "frac_negative": 0.076
+  },
+  "ECpanel|LAM": {
+   "median": 0.23920369404573344,
+   "lo": 0.1897833434090731,
+   "hi": 0.3222712602627929,
+   "frac_negative": 0.0
+  }
+ },
+ "cluster_bootstrap_delta": {
+  "delta_matrix": {
+   "median": 0.30586159693187887,
+   "lo": 0.20488145259032778,
+   "hi": 0.37548736512469033,
+   "frac_positive": 1.0
+  },
+  "delta_lam": {
+   "median": 0.1178730155734237,
+   "lo": -0.11264289851630865,
+   "hi": 0.24263416234433258,
+   "frac_positive": 0.8545
+  }
+ },
+ "holds": {
+  "ec_matrix_null": true,
+  "lam_gt_ec_matrix": true,
+  "lam_matrix_tightest": false
+ },
+ "note": "Within-donor = 8 separate estimates; donor FE = each donor's mean removed before pooling (equivalent to a random-intercept LMM when slopes do not vary); partial = Pearson on residuals after regressing on log nCount, pct_ribo, pct_mito and donor dummies. All CIs resample donors, not cells."
+}

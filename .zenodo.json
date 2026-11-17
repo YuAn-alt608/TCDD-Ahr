@@ -1,0 +1,31 @@
+{
+  "title": "TCDD-AhR: AhR-dependent heterochromatin opening in vascular smooth muscle initiates a bifurcated myeloid-stromal cascade (analysis release)",
+  "description": "Code, 172 derived result tables, 23 figures and the 21-claim audit matrix (Supplementary Table 1) for a study of 8- and 16-week TCDD exposure in ApoE-null mice with smooth-muscle-specific Ahr deletion, profiled by single-cell ATAC and RNA sequencing. Raw sequencing data are not included; see data/DATA_AVAILABILITY.md for accessions (GSE276870, GSE276872, GSE131778, GSE276152, GSE205502).",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "TCDD",
+    "aryl hydrocarbon receptor",
+    "vascular smooth muscle",
+    "single-cell ATAC-seq",
+    "heterochromatin",
+    "reproducibility",
+    "claim audit"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "TODO: DOI of the article",
+      "resource_type": "publication-article"
+    }
+  ],
+  "creators": [
+    {
+      "name": "TODO: family name, given name",
+      "affiliation": "TODO: affiliation",
+      "orcid": "TODO: ORCID (optional)"
+    }
+  ],
+  "notes": "EDIT BEFORE ENABLING THE ZENODO INTEGRATION. The creator block and the related_identifiers DOI are placeholders on purpose; Zenodo publishes them verbatim and the DOI is permanent."
+}

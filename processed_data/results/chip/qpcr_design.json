@@ -1,0 +1,18 @@
+{
+ "loci": 22,
+ "pairs": 42,
+ "by_genome": {
+  "mm10": 22,
+  "hg38": 20
+ },
+ "by_tier": {
+  "A": 14,
+  "C": 12,
+  "B": 6,
+  "C（备选）": 6,
+  "A（备选）": 4
+ },
+ "median_amplicon": 141.0,
+ "specificity_checked": false,
+ "note": "primer3 with SantaLucia Tm, 50 mM monovalent salt, 250 nM primer, amplicon forced across the TSS. Genome-wide specificity was NOT checked (UCSC hgPcr blocks scripted access, no local hg38 FASTA); every pair must go through Primer-BLAST before it is ordered."
+}

@@ -1,0 +1,41 @@
+{
+  "note": "no fragments -> motif enrichment + chromVAR-style deviation, not Tn5 footprinting",
+  "n_bins": 121296,
+  "n_cells": 16000,
+  "n_motifs": 879,
+  "window_bp": 500,
+  "hit_threshold_frac": 0.85,
+  "lineages": {
+    "Parenchyma": {
+      "ctrl": 2439,
+      "tcdd": 1477,
+      "ako": 1962,
+      "n_open": 300,
+      "n_close": 54
+    },
+    "Endothelial": {
+      "ctrl": 382,
+      "tcdd": 183,
+      "ako": 127,
+      "n_open": 35,
+      "n_close": 167
+    },
+    "Mesenchymal": {
+      "ctrl": 1458,
+      "tcdd": 504,
+      "ako": 463,
+      "n_open": 42,
+      "n_close": 94
+    },
+    "Immune": {
+      "ctrl": 1490,
+      "tcdd": 268,
+      "ako": 213,
+      "n_open": 54,
+      "n_close": 300
+    }
+  },
+  "enrichment_rows": 7032,
+  "activity_rows": 3516,
+  "elapsed_s": 266.6
+}

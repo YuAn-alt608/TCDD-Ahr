@@ -1,0 +1,31 @@
+{
+ "alpha": 0.05,
+ "nsim": 6000,
+ "mde_80pct": {
+  "2v2": 5.58,
+  "2v3": 3.88,
+  "3v2": 3.88,
+  "3v3": 3.07,
+  "4v4": 2.39,
+  "6v6": 1.78
+ },
+ "atac_sigma_inflate": 1.5,
+ "atac": {
+  "n_endpoints": 15,
+  "median_d_ko_vs_wt": 0.92,
+  "frac_power80_at_2v2": 0.2,
+  "frac_power80_at_3v3": 0.4
+ },
+ "rna": {
+  "n_endpoints": 42,
+  "median_d_ko_vs_wt": 0.5,
+  "median_d_ko_vs_ctrl": -0.57,
+  "frac_power80_at_2v2": 0.12,
+  "frac_power80_at_3v3": 0.29
+ },
+ "design_in_data": {
+  "rna": "Control 3 / 8wk 3 / 16wk WT 1 / KO 1",
+  "atac": "Control 2 / 16wk WT 1 / KO 1"
+ },
+ "note": "Power is simulated for the two-sided pooled-variance t-test at alpha=0.05 (Welch reported separately: at n=2 its df collapses toward 1 and power halves). Between-animal SD is estimated from the replicated groups: RNA df=4, ATAC df=1 (inflated x1.5 by default, sensitivity x1-x3 in atac_sigma_sensitivity.csv)."
+}

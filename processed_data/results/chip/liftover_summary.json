@@ -1,0 +1,9 @@
+{
+  "n_bins": 121296,
+  "bins_lifted": 57349,
+  "lift_rate": 0.47293463739671127,
+  "bins_with_ahr_peak": 1967,
+  "peak_fraction_of_bins": 0.016221075027626132,
+  "chain_skipped": 459,
+  "note": "mm10 bin midpoint -> hg38 via UCSC chain; bin window +-2.5 kb"
+}

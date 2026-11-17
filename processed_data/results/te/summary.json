@@ -1,0 +1,34 @@
+{
+  "families": {
+    "IAP": {
+      "n_elements": 28601,
+      "n_genes": 54
+    },
+    "ETn": {
+      "n_elements": 3243,
+      "n_genes": 9
+    },
+    "ERVK_oth": {
+      "n_elements": 286630,
+      "n_genes": 2073
+    },
+    "ERVL": {
+      "n_elements": 571955,
+      "n_genes": 3491
+    },
+    "ERV1": {
+      "n_elements": 71649,
+      "n_genes": 978
+    },
+    "L1": {
+      "n_elements": 903043,
+      "n_genes": 3938
+    },
+    "SINE_B": {
+      "n_elements": 1066099,
+      "n_genes": 12512
+    }
+  },
+  "note": "TE family activity is a promoter-gene proxy, not TE transcript counting; no BAM/FASTQ in GEO, see scripts/TE_count_readme.md",
+  "n_cells": 33376
+}

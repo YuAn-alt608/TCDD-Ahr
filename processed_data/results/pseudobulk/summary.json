@@ -1,0 +1,28 @@
+{
+  "design": {
+    "rna": {
+      "Control": 3,
+      "TCDD_8wk": 3,
+      "TCDD_16wk_AhrKO": 1,
+      "TCDD_16wk_WT": 1
+    },
+    "rna_cells_per_group": {
+      "Control": 12513,
+      "TCDD_8wk": 12245,
+      "TCDD_16wk_WT": 4351,
+      "TCDD_16wk_AhrKO": 4267
+    },
+    "atac": {
+      "Control": 2,
+      "TCDD_16wk_AhrKO": 1,
+      "TCDD_16wk_WT": 1
+    }
+  },
+  "note": "16-week WT and Ahr-KO are a single animal each; animal-level tests are reported only for Control vs 8-week (n=3 vs 3). KO contrasts are reported as per-animal values with a df=1 z, and are labelled as estimates.",
+  "atac_cells_per_library": {
+    "AKO16": 4000,
+    "CTRL1": 4000,
+    "CTRL2": 4000,
+    "WT16": 4000
+  }
+}

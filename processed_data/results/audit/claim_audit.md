@@ -1,0 +1,34 @@
+# Claim audit
+
+共 21 条；PASS 16，REWRITE 5，FAIL 0
+
+| 编号 | 主张 | 重算值 | 判据 | 判定 | 来源 |
+|---|---|---|---|---|---|
+| C1 | SMC 的 H3K9me3 域在 TCDD 后可及性上升（d>0，FDR<0.05） | d=0.347, FDR=8.6e-4 | d>0 且 FDR<0.05 | **PASS** | `ATAC/atac_lineage_effects.csv` |
+| C2 | GC/TSS 匹配置换下，只有 SMC 的域开放偏移能区别于零模型 | SMC p=0.001；EC p=0.284；Mes p=0.907；Imm p=0.433 | SMC p<0.05 且其余三条 p>0.05 | **PASS** | `permutation/permutation_test.csv` |
+| C3 | SMC 特异敲除 Ahr 后，域开放只部分回落（0<回落比例<1） | 对照 0.01542 / WT 0.01615 / AhrKO 0.01581；回落 47%（AhrKO 仍保留 WT 增益的 53%） | AhrKO 高于对照且低于 WT | **PASS** | `ATAC/atac_lineage_effects.csv` |
+| C4 | SMC 开放 bin 富集 Ahr::Arnt motif（OR>1.5，FDR<0.05） | OR=2.01, FDR=0.0015, n=293 | OR>1.5 且 FDR<0.05 | **PASS** | `motif/motif_enrichment.csv` |
+| C5 | 内皮开放 bin 的 motif 富集能指认出一个上游因子（如 KLF2/HIF1A） | n=30，FDR<0.05 的 motif 0 个；Ahr::Arnt p=0.272 | 至少 1 个 motif 过 FDR<0.05 | **REWRITE** | `motif/motif_enrichment.csv` |
+| C6 | 内皮启动子可及性改变不被 SMC 特异的 Ahr 敲除逆转 | d=0.544；对照 -0.0248 / WT -0.02128 / AhrKO -0.02148；KO 与 WT 相差 6% 的 WT−Ctrl 落差 | AhrKO 与 WT 接近（<25% 落差）且两者都远离对照 | **PASS** | `ATAC/atac_lineage_effects.csv` |
+| C7 | 等深度重算后，域指标的方向全部不变（12/12），显著性不全部保持 | 方向 24/24；判定 holds 7/12，其余 direction only | 方向 100% 一致 | **PASS** | `robust/downsample_domain_verdict.csv` |
+| C8 | 逐细胞终点在等深度下方向稳定 | 67/72 个组合三次稀释全部同号；非全同号的 5 个：Endothelial/frac_het/AhrKO(2/3), Immune/prom_het_rel/AhrKO(1/3), Immune/prom_het_rel/WT(0/3), Mesenchymal/frac_het/AhrKO(0/3), Macrophage/LAM/WT(2/3) | 主终点（EC het_derepression / SMC frac_het / Mac LAM / Fib matrix）不出现 0/3 | **PASS** | `audit/depth_summary.csv` |
+| C9 | 每只动物内 80% 细胞重抽样，主终点同号比例 100% | 最低同号比例 1.000（4 个终点） | 全部 =1.0 | **PASS** | `audit/subsample_summary.csv` |
+| C10 | 组成分解后 10 个终点中 6 个细胞自主、2 个混合、2 个组成敏感 | 6 / 2 / 2 | 6/2/2 | **PASS** | `audit/endpoint_verdict.csv` |
+| C11 | 细胞组成的改变不能宣称显著（精确置换最小可达 p≈0.048） | 精确置换最小 p = 0.143（7 个成分） | 最小值 >0.05 或 = 1/21 | **PASS** | `audit/composition_tests_8wk.csv` |
+| C12 | 个体水平上只有巨噬 AgingSen 与成纤维基质配体站得住，内皮与 SMC 不显著 | EC p=0.138 d=-1.82；SMC p=0.185 d=-1.55；Mac AgingSen p=0.0038 d=5.5 | EC/SMC p>0.05 且 Mac p<0.01 | **PASS** | `pseudobulk/cell_vs_pseudobulk_p.csv` |
+| C13 | 三类程序在人体冠脉图谱里落到正确细胞类型 | LAM：Mac 0.4；ECpanel：EC 0.29；ModSMC：SMC 0.21 vs Fib 0.28；Matrix：SMC 0.16 vs Fib 0.69 | 每个程序在其目标细胞类型最高 | **REWRITE** | `human/human_programme_summary.csv + human/human_celltype_scores.csv` |
+| C14 | 环境重塑的靶点与常见遗传变异的靶点不重叠（OR<1） | OR=0.529, Fisher p=9.5e-29, 面板 1993 vs 背景 4157 | OR<1 且 p<0.05 | **PASS** | `genetics/trait_enrichment.json` |
+| C15 | 环五：SMC 开放 bin 的 AHR 占据没有配体特异性富集 | 配对差 z=-0.75（p=0.77）；覆盖≥50% 后 z=-2.04 | z<0（即不高于背景） | **PASS** | `chip_alt/occupancy_tests.csv` |
+| C16 | R3 在供体内部也成立：髓系–基质 > 内皮–基质 | 8/8 供体为正，中位差 0.34，Wilcoxon p=0.0039 | ≥7/8 供体为正且 p<0.05 | **PASS** | `human/r3_summary.json` |
+| C17 | 控制深度/核糖体/线粒体后，内皮–基质仍低于髓系–基质 | 偏 r：髓系–基质 0.137, 内皮–基质 -0.021 | 髓系–基质 > 内皮–基质 | **PASS** | `human/r3_summary.json` |
+| C18 | 髓系–基质是三者中最紧的一对 | 偏 r：髓系–基质 0.137, 内皮–髓系 0.169 | 髓系–基质 为三者最大 | **REWRITE** | `human/r3_summary.json` |
+| C19 | 人 SMC 内部 Matrix 随纤维肌细胞标志上升 | TNFRSF11B 偏 r=0.347（CI 0.28–0.395） | r>0.1 且 CI 不含 0 | **PASS** | `human/stromal_continuum_summary.json` |
+| C20 | 人 SMC 内部 Matrix 与 MYH11 强负相关（r<-0.3） | MYH11 偏 r=-0.036；ACTA2 -0.213 | r<-0.3 | **REWRITE** | `human/stromal_continuum_summary.json` |
+| C21 | 3v3 的精确置换检验可以判定组成改变（p<0.05） | 0.1429（C(6,3)=20 种划分） | floor<0.05 才可能拒绝 | **REWRITE** | `power/floor_summary.json` |
+
+## 需要改写的地方
+- **C5 REWRITE**：n=30 个 bin，一个都没过；因此“内皮走缺氧/剪切通道”只能当假设写，不能当结论
+- **C13 REWRITE**：LAM 与 ECpanel 落对；ModSMC 在成纤维更高（已知反例）；Matrix 也在成纤维更高（0.687 vs 0.162）→ “基质配体落对”这句不成立，只保留“可检测”
+- **C18 REWRITE**：扣除深度后 0.137 < 0.169；“最紧的一对”这句撤回，只保留“内皮与基质正交”
+- **C20 REWRITE**：实测 MYH11 −0.04、ACTA2 −0.21：收缩标志的负相关只是中等，梯度主要由纤维肌细胞端驱动，正文按此改写
+- **C21 REWRITE**：0.143>0.05：3v3 的精确置换在任何效应量下都无法拒绝，最小可拒绝设计是 4v4（floor 0.042）

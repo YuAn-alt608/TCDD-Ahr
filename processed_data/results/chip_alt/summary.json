@@ -1,0 +1,12 @@
+{
+  "query_hits": 17,
+  "candidate_series": 9,
+  "series_with_peak_files": 1,
+  "n_passed_tierC": 0,
+  "passed": [],
+  "gate": "PASS = >=2/6 canonical targets bound at TSS+-10kb AND >=2x enrichment over random genes; weak = only at +-50kb or 1.3-2x",
+  "verdicts": {
+    "FAIL": 1
+  },
+  "note": "Datasets are admitted before any locus of interest is examined. If nothing passes, the finding is not 'AHR does not bind these promoters' but 'no public AHR occupancy map for vascular tissue passes its own positive control'."
+}

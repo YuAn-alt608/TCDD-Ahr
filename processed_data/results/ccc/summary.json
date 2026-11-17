@@ -1,0 +1,67 @@
+{
+  "design": "group-level pseudobulk; tdT+ and tdT- are two halves of the same heart, so SMC (tdT+) and macrophages (tdT-) never share a sample",
+  "n_lr_pairs": 2296,
+  "n_groups": 4,
+  "cells": 33376,
+  "top_smc_to_macrophage": [
+    {
+      "sender": "ModifiedSMC",
+      "ligand": "Timp1",
+      "receptor": "Cd63",
+      "d_tcdd_vs_ctrl": 0.1349,
+      "d_ako_vs_wt": -0.029
+    },
+    {
+      "sender": "SMC",
+      "ligand": "Lamb2",
+      "receptor": "Rpsa",
+      "d_tcdd_vs_ctrl": 0.0786,
+      "d_ako_vs_wt": -0.0265
+    },
+    {
+      "sender": "ModifiedSMC",
+      "ligand": "Fn1",
+      "receptor": "Sdc4",
+      "d_tcdd_vs_ctrl": 0.0515,
+      "d_ako_vs_wt": NaN
+    },
+    {
+      "sender": "ModifiedSMC",
+      "ligand": "Col1a2",
+      "receptor": "Sdc4",
+      "d_tcdd_vs_ctrl": 0.04,
+      "d_ako_vs_wt": NaN
+    },
+    {
+      "sender": "SMC",
+      "ligand": "Mif",
+      "receptor": "Cd74",
+      "d_tcdd_vs_ctrl": 0.0391,
+      "d_ako_vs_wt": 0.0082
+    },
+    {
+      "sender": "ModifiedSMC",
+      "ligand": "Lum",
+      "receptor": "Itgb1",
+      "d_tcdd_vs_ctrl": 0.0372,
+      "d_ako_vs_wt": -0.028
+    },
+    {
+      "sender": "SMC",
+      "ligand": "Col1a2",
+      "receptor": "Sdc4",
+      "d_tcdd_vs_ctrl": 0.037,
+      "d_ako_vs_wt": NaN
+    },
+    {
+      "sender": "SMC",
+      "ligand": "App",
+      "receptor": "Cd74",
+      "d_tcdd_vs_ctrl": 0.033,
+      "d_ako_vs_wt": 0.0416
+    }
+  ],
+  "n_pairs_tcdd_up_ako_down": 9,
+  "n_pairs_total": 31,
+  "note": "no p-values: one pooled observation per group"
+}

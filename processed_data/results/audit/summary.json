@@ -1,0 +1,100 @@
+{
+  "design": {
+    "rna": "3 Control + 3 TCDD-8wk mice; each mouse contributes one tdT+ and one tdT- library. 16-wk WT and Ahr-KO are one mouse each (both fractions).",
+    "atac": "2 Control libraries, 1 WT, 1 Ahr-KO, 4000 cells/library.",
+    "sort_gate": "tdT+ libraries contain only SMC/ModifiedSMC; tdT- libraries contain no SMC. Composition is compared inside a fraction only."
+  },
+  "substate_partition": "k-means (k=3-5 by cell number) on the harmonised embedding, recomputed per celltype and independent of the endpoint labels",
+  "min_attainable_p_3v3": "about 0.05 - there are only 20 animal-level label splits, so p<0.05 is reachable only in the single most extreme split",
+  "L1": {
+    "n_tests": 7,
+    "n_fdr05": 3
+  },
+  "L2": {
+    "n_tests": 25,
+    "n_fdr05": 0
+  },
+  "n1_envelope": {
+    "n_rows": 64,
+    "frac_inside_control_envelope": 0.422,
+    "median_boot_over_ctrl_width": 1.647
+  },
+  "verdict": {
+    "cell-intrinsic (survives composition matching)": 6,
+    "mixed": 2,
+    "composition-sensitive": 2
+  },
+  "endpoints": {
+    "het_derepression|TCDD_8wk vs Control": {
+      "delta_raw": -0.205194,
+      "pct_composition": 20.0,
+      "delta_retained_after_matching": 0.865,
+      "frac_strata_same_sign": 1.0,
+      "verdict": "cell-intrinsic (survives composition matching)"
+    },
+    "het_derepression|TCDD_16wk_WT vs Control": {
+      "delta_raw": -0.247965,
+      "pct_composition": -9.5,
+      "delta_retained_after_matching": 1.051,
+      "frac_strata_same_sign": 1.0,
+      "verdict": "cell-intrinsic (survives composition matching)"
+    },
+    "het_derepression|TCDD_16wk_AhrKO vs Control": {
+      "delta_raw": -0.14303,
+      "pct_composition": 16.8,
+      "delta_retained_after_matching": 0.702,
+      "frac_strata_same_sign": 0.8,
+      "verdict": "cell-intrinsic (survives composition matching)"
+    },
+    "LAM|TCDD_8wk vs Control": {
+      "delta_raw": -0.119975,
+      "pct_composition": -37.2,
+      "delta_retained_after_matching": 1.288,
+      "frac_strata_same_sign": 0.6,
+      "verdict": "mixed"
+    },
+    "LAM|TCDD_16wk_WT vs Control": {
+      "delta_raw": 0.224071,
+      "pct_composition": -147.4,
+      "delta_retained_after_matching": -0.017,
+      "frac_strata_same_sign": 0.8,
+      "verdict": "composition-sensitive"
+    },
+    "LAM|TCDD_16wk_AhrKO vs Control": {
+      "delta_raw": 0.483614,
+      "pct_composition": -6.5,
+      "delta_retained_after_matching": 0.981,
+      "frac_strata_same_sign": 1.0,
+      "verdict": "cell-intrinsic (survives composition matching)"
+    },
+    "frac_het|TCDD_16wk_WT vs Control": {
+      "delta_raw": 0.000761,
+      "pct_composition": 7.1,
+      "delta_retained_after_matching": 0.602,
+      "frac_strata_same_sign": 1.0,
+      "verdict": "mixed"
+    },
+    "frac_het|TCDD_16wk_AhrKO vs Control": {
+      "delta_raw": 0.000416,
+      "pct_composition": 12.9,
+      "delta_retained_after_matching": 0.406,
+      "frac_strata_same_sign": 0.8,
+      "verdict": "composition-sensitive"
+    },
+    "prom_het_rel|TCDD_16wk_WT vs Control": {
+      "delta_raw": 0.003509,
+      "pct_composition": 0.7,
+      "delta_retained_after_matching": 0.873,
+      "frac_strata_same_sign": 0.75,
+      "verdict": "cell-intrinsic (survives composition matching)"
+    },
+    "prom_het_rel|TCDD_16wk_AhrKO vs Control": {
+      "delta_raw": 0.003312,
+      "pct_composition": -1.3,
+      "delta_retained_after_matching": 1.042,
+      "frac_strata_same_sign": 1.0,
+      "verdict": "cell-intrinsic (survives composition matching)"
+    }
+  },
+  "note": "Proportions come from libraries downsampled to a fixed per-sample cell cap, so they are unbiased but noisier than the raw libraries. The KO/WT arms have one mouse and are reported against the control envelope, never as tests; their cell-level bootstrap CI covers sampling noise only."
+}

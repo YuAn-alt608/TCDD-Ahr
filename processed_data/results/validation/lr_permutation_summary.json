@@ -1,0 +1,39 @@
+{
+  "n_pairs": 187,
+  "n_perm": 1000,
+  "observed_hits": 4,
+  "observed_mean_abs_err": 0.05378272339377729,
+  "cm_scores": {
+    "Control": 51.512,
+    "TCDD_8wk": 47.307,
+    "TCDD_16wk_WT": 42.974,
+    "TCDD_16wk_AhrKO": 49.289
+  },
+  "chance_4of4": 0.0625,
+  "test": [
+    {
+      "null": "observed",
+      "hits": 4.0,
+      "mean_abs_err": 0.0538,
+      "p_hits": NaN,
+      "p_err": NaN,
+      "frac_4of4": NaN
+    },
+    {
+      "null": "ligand_shuffle",
+      "hits": 4.0,
+      "mean_abs_err": 0.0493,
+      "p_hits": 1.0,
+      "p_err": 0.9321,
+      "frac_4of4": 1.0
+    },
+    {
+      "null": "receptor_shuffle",
+      "hits": 4.0,
+      "mean_abs_err": 0.0494,
+      "p_hits": 1.0,
+      "p_err": 0.9301,
+      "frac_4of4": 1.0
+    }
+  ]
+}

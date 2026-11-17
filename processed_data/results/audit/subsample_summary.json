@@ -1,0 +1,19 @@
+{
+  "n_draws_per_endpoint": 1000,
+  "subsample_fraction": 0.8,
+  "min_frac_same_sign": 1.0,
+  "min_frac_within_50pct": 0.966,
+  "all_keep_sign_95pct": true,
+  "all_keep_magnitude_95pct": true,
+  "worst": {
+    "assay": "RNA",
+    "celltype": "Endothelial",
+    "endpoint": "het_derepression",
+    "contrast": "TCDD_16wk_AhrKO vs Control",
+    "frac_same_sign": 1.0,
+    "frac_within_50pct": 0.977,
+    "jack_lo": -2.477522300136621,
+    "jack_hi": -1.902026544197819
+  },
+  "note": "The standardiser is the frozen sigma, so the spread of d is cell sampling only. The jackknife columns are the range of d when a single cell is deleted - the most one cell can possibly do."
+}

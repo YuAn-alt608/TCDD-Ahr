@@ -1,0 +1,3 @@
+dataset,window,n_targets,target_mean,target_hit_frac,random_mean,random_hit_frac,enrichment,n_peaks,per_target
+GSE205502::GSE205502__GSE205502_2b_TCDDvsVC_p5.bed.gz,10kb,6,0.0,0.0,0.03,0.027333333333333334,0.0,1984,AHR=0;AHRR=0;CYP1A1=0;CYP1B1=0;NQO1=0;TIPARP=0
+GSE205502::GSE205502__GSE205502_2b_TCDDvsVC_p5.bed.gz,50kb,6,0.0,0.0,0.14633333333333334,0.11,0.0,1984,AHR=0;AHRR=0;CYP1A1=0;CYP1B1=0;NQO1=0;TIPARP=0

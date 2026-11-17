@@ -1,0 +1,41 @@
+{
+  "version": "v1.0.0-submission",
+  "frozen_utc": "2026-11-17T16:38:27+00:00",
+  "files": 284,
+  "bytes": 70414144,
+  "result_tables": 172,
+  "figures": 23,
+  "scripts": 70,
+  "claims": 21,
+  "dispositions": {
+    "Retained": 15,
+    "Downgraded to Hypothesis": 1,
+    "Revised / Bounded in Limitations": 5
+  },
+  "excluded": [
+    {
+      "file": "ATAC/atac_processed.h5ad",
+      "bytes": 157370939
+    },
+    {
+      "file": "ATAC/gene_activity.npz",
+      "bytes": 69633434
+    },
+    {
+      "file": "motif/motif_deviation_per_cell.csv.gz",
+      "bytes": 31402342
+    }
+  ],
+  "upstream": [
+    "GSE276870",
+    "GSE276872",
+    "GSE131778",
+    "GSE276152",
+    "GSE205502"
+  ],
+  "licence": {
+    "code": "MIT",
+    "derived": "CC BY 4.0"
+  },
+  "files_hashed": 299
+}

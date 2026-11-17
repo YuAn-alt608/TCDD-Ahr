@@ -1,0 +1,13 @@
+metric,lineage,full_d,full_p,match_ako_d,match_ako_p,stress_60pct_d,stress_60pct_p,verdict
+frac_het,Parenchyma,0.347,0.002,0.299,0.002,0.261,0.002,holds
+frac_het,Endothelial,0.119,0.202,0.085,0.415,0.084,0.35,direction only
+frac_het,Mesenchymal,-0.036,0.485,-0.042,0.422,-0.043,0.459,direction only
+frac_het,Immune,0.112,0.1,0.093,0.184,0.104,0.136,direction only
+frac_lad,Parenchyma,0.147,0.002,0.141,0.002,0.136,0.002,holds
+frac_lad,Endothelial,-0.168,0.056,-0.159,0.092,-0.15,0.115,direction only
+frac_lad,Mesenchymal,-0.29,0.002,-0.274,0.002,-0.234,0.002,holds
+frac_lad,Immune,-0.514,0.002,-0.492,0.002,-0.461,0.002,holds
+prom_het_rel,Parenchyma,0.363,0.002,0.34,0.002,0.262,0.002,holds
+prom_het_rel,Endothelial,0.281,0.004,0.243,0.018,0.139,0.189,holds
+prom_het_rel,Mesenchymal,0.239,0.002,0.199,0.004,0.138,0.043,holds
+prom_het_rel,Immune,-0.118,0.084,-0.127,0.091,-0.204,0.01,direction only

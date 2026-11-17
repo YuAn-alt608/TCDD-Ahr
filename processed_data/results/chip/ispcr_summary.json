@@ -1,0 +1,13 @@
+{
+  "genomes_searched": [
+    "hg38",
+    "mm10"
+  ],
+  "n_pairs": 42,
+  "ok": 40,
+  "review": 0,
+  "redesign": 2,
+  "rule": "3'-terminal 15 nt exact, <= 2 mismatches in the 5' remainder, product 40-3000 bp, both genomes searched whole",
+  "caveat": "This is an in-silico PCR, not Primer-BLAST: it does not model secondary structure, does not allow an indel, and a perfect 3' anchor is assumed. Any 'review' or 'redesign' pair must still go through Primer-BLAST before ordering.",
+  "replaced_after_multi_hit": 0
+}

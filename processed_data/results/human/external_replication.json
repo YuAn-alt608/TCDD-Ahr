@@ -1,0 +1,121 @@
+{
+ "note": "independent human coronary atlas (GSE131778, 8 donors). R1 = the ranking of programmes by cell-type specificity survives a disjoint-donor split; R2 = the AUC holds donor by donor; R3 = the endothelial programme is less coupled to the myeloid/stromal ones than those are to each other, which is what a branch point means.",
+ "R1": {
+  "n_splits": 200,
+  "median_abs_dauc": {
+   "LAM": 0.07536396997217065,
+   "ECpanel": 0.018188683138662176,
+   "Matrix": 0.037118096993922545,
+   "ModSMC": 0.08865487385220983
+  },
+  "p95_abs_dauc": {
+   "LAM": 0.14347224596716524,
+   "ECpanel": 0.044850521810464894,
+   "Matrix": 0.11181780404638952,
+   "ModSMC": 0.14991945095676507
+  },
+  "stable_progs": [
+   "ECpanel",
+   "Matrix"
+  ]
+ },
+ "R2": {
+  "n_donors": 8,
+  "auc_per_donor": [
+   {
+    "donor": 1,
+    "n_cells": 530,
+    "LAM": 0.894,
+    "ECpanel": 0.826,
+    "Matrix": 0.855,
+    "ModSMC": 0.812
+   },
+   {
+    "donor": 2,
+    "n_cells": 262,
+    "LAM": 0.804,
+    "ECpanel": 0.809,
+    "Matrix": 0.702,
+    "ModSMC": 0.618
+   },
+   {
+    "donor": 3,
+    "n_cells": 1491,
+    "LAM": 0.553,
+    "ECpanel": 0.683,
+    "Matrix": 0.544,
+    "ModSMC": 0.524
+   },
+   {
+    "donor": 4,
+    "n_cells": 1400,
+    "LAM": 0.691,
+    "ECpanel": 0.672,
+    "Matrix": 0.529,
+    "ModSMC": 0.49
+   },
+   {
+    "donor": 5,
+    "n_cells": 1847,
+    "LAM": 0.692,
+    "ECpanel": 0.666,
+    "Matrix": 0.599,
+    "ModSMC": 0.582
+   },
+   {
+    "donor": 6,
+    "n_cells": 2385,
+    "LAM": 0.686,
+    "ECpanel": 0.664,
+    "Matrix": 0.66,
+    "ModSMC": 0.614
+   },
+   {
+    "donor": 7,
+    "n_cells": 2089,
+    "LAM": 0.685,
+    "ECpanel": 0.661,
+    "Matrix": 0.595,
+    "ModSMC": 0.571
+   },
+   {
+    "donor": 8,
+    "n_cells": 1752,
+    "LAM": 0.889,
+    "ECpanel": 0.644,
+    "Matrix": 0.594,
+    "ModSMC": 0.603
+   }
+  ],
+  "n_donors_auc_gt_06": {
+   "LAM": 7,
+   "ECpanel": 8,
+   "Matrix": 3,
+   "ModSMC": 4
+  },
+  "pass_per_programme": {
+   "LAM": true,
+   "ECpanel": true,
+   "Matrix": false,
+   "ModSMC": false
+  }
+ },
+ "R3": {
+  "r_ecpanel_lam": 0.18187897695948763,
+  "r_ecpanel_matrix": 0.024773409176269003,
+  "r_lam_matrix": 0.4306794363673195,
+  "r_modsmc_matrix": 0.702151764340684,
+  "branch_holds": true
+ },
+ "pooled": {
+  "LAM": 0.7396319841809146,
+  "ECpanel": 0.6888250153224623,
+  "Matrix": 0.6364642855578961,
+  "ModSMC": 0.6309045383901253
+ },
+ "verdicts": {
+  "R1": true,
+  "R2": false,
+  "R3": true
+ }
+}

@@ -1,0 +1,2 @@
+sender,receiver,ligand,receptor,Control,TCDD_16wk_AhrKO,TCDD_16wk_WT,TCDD_8wk,d_tcdd_vs_ctrl,d_ako_vs_wt,reversal
+ModifiedSMC,Macrophage,Cxcl12,Sdc4,,,,0.08799301832914352,,,

@@ -1,0 +1,11 @@
+assay,celltype,endpoint,contrast,estimator,delta_raw,comp,state,pct_composition,delta_retained,frac_strata_same_sign,verdict
+RNA,Endothelial,het_derepression,TCDD_8wk vs Control,substate_pseudobulk,-0.20519378646139108,-0.04112046675750561,-0.17743523847068815,20.039820633283536,0.8647203286736658,1.0,cell-intrinsic (survives composition matching)
+RNA,Endothelial,het_derepression,TCDD_16wk_WT vs Control,substate_pseudobulk,-0.24796539116502503,0.023559941453706434,-0.26050581753113944,-9.501302316026395,1.0505732929389673,1.0,cell-intrinsic (survives composition matching)
+RNA,Endothelial,het_derepression,TCDD_16wk_AhrKO vs Control,substate_pseudobulk,-0.14303026297037702,-0.02400291994143189,-0.10043573128871633,16.781707201645244,0.7021991654277916,0.8,cell-intrinsic (survives composition matching)
+RNA,Macrophage,LAM,TCDD_8wk vs Control,substate_pseudobulk,-0.11997493572559836,0.04462890346855582,-0.1545325487651691,-37.19852250692525,1.2880402713330836,0.6,mixed
+RNA,Macrophage,LAM,TCDD_16wk_WT vs Control,substate_pseudobulk,0.22407075779258712,-0.3303289001710147,-0.003738097412919722,-147.42169099851318,-0.01668266510875975,0.8,composition-sensitive
+RNA,Macrophage,LAM,TCDD_16wk_AhrKO vs Control,substate_pseudobulk,0.48361447382999145,-0.03151377933617469,0.474589211980811,-6.516301939146048,0.9813378996337635,1.0,cell-intrinsic (survives composition matching)
+ATAC,Parenchyma,frac_het,TCDD_16wk_WT vs Control,per_cell,0.0007606414625405608,5.383819800405907e-05,0.00045797620243581894,7.077999380186058,0.6020920827878208,1.0,mixed
+ATAC,Parenchyma,frac_het,TCDD_16wk_AhrKO vs Control,per_cell,0.00041564898390357777,5.373234394091765e-05,0.00016878883408969817,12.927336772554815,0.406085039603642,0.8,composition-sensitive
+ATAC,Endothelial,prom_het_rel,TCDD_16wk_WT vs Control,per_cell,0.003509056899052631,2.5355798693433233e-05,0.003065135961408234,0.7225815774112624,0.8734928072086133,0.75,cell-intrinsic (survives composition matching)
+ATAC,Endothelial,prom_het_rel,TCDD_16wk_AhrKO vs Control,per_cell,0.003312383726119878,-4.455419424680943e-05,0.003450107036636294,-1.3450794935223327,1.0415783079207874,1.0,cell-intrinsic (survives composition matching)

@@ -1,0 +1,38 @@
+{
+  "test": "max 500 bp bin within TSS +-10000 bp vs 500 random TSS windows",
+  "gate": "PASS = >=2 of 6 targets with summit >= 95th percentile",
+  "result": {
+    "GSE240495_AHR_CUTRUN_K562": {
+      "n_pass": 1,
+      "genes": [
+        "AHRR"
+      ]
+    },
+    "GSE276152_AHR_ChIP_HCASMC_DMSO": {
+      "n_pass": 1,
+      "genes": [
+        "NQO1"
+      ]
+    },
+    "GSE276152_AHR_ChIP_HCASMC_TCDD": {
+      "n_pass": 2,
+      "genes": [
+        "CYP1A1",
+        "AHRR"
+      ]
+    },
+    "GSE304148_AHR_ChIP_SKMEL2_AHROE": {
+      "n_pass": 2,
+      "genes": [
+        "CYP1A1",
+        "CYP1B1"
+      ]
+    },
+    "GSE304148_AHR_ChIP_SKMEL2_control": {
+      "n_pass": 1,
+      "genes": [
+        "TIPARP"
+      ]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "IAP": {
+    "simulated": 780,
+    "correct": 203,
+    "recall": 0.26
+  },
+  "ETn": {
+    "simulated": 870,
+    "correct": 744,
+    "recall": 0.855
+  },
+  "ERVK_oth": {
+    "simulated": 870,
+    "correct": 381,
+    "recall": 0.438
+  },
+  "ERVL": {
+    "simulated": 900,
+    "correct": 260,
+    "recall": 0.289
+  },
+  "ERV1": {
+    "simulated": 900,
+    "correct": 298,
+    "recall": 0.331
+  },
+  "L1": {
+    "simulated": 870,
+    "correct": 537,
+    "recall": 0.617
+  },
+  "SINE_B": {
+    "simulated": 900,
+    "correct": 0,
+    "recall": 0.0
+  },
+  "_coding_exons": {
+    "simulated": 318,
+    "assigned": 1,
+    "false_assignment_rate": 0.0031
+  }
+}

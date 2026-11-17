@@ -1,0 +1,4 @@
+null,hits,mean_abs_err,p_hits,p_err,frac_4of4,null_hits_dist
+observed,4.0,0.05378272339377729,,,,
+ligand_shuffle,4.0,0.049257752078148795,1.0,0.932067932067932,1.0,{4: 1000}
+receptor_shuffle,4.0,0.04938887154549316,1.0,0.9300699300699301,1.0,{4: 1000}

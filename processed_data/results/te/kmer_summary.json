@@ -1,0 +1,141 @@
+{
+  "pilot": false,
+  "n_reads_cap": null,
+  "libraries": [
+    {
+      "library": "ctrl_r1_SRR30622183.part.gz",
+      "group": "Control",
+      "n_reads": 272684,
+      "assigned_frac": 0.0093
+    },
+    {
+      "library": "tcdd_r1_SRR30622170.part.gz",
+      "group": "TCDD",
+      "n_reads": 268048,
+      "assigned_frac": 0.0098
+    }
+  ],
+  "validation": {
+    "IAP": {
+      "simulated": 780,
+      "correct": 203,
+      "recall": 0.26
+    },
+    "ETn": {
+      "simulated": 870,
+      "correct": 744,
+      "recall": 0.855
+    },
+    "ERVK_oth": {
+      "simulated": 870,
+      "correct": 381,
+      "recall": 0.438
+    },
+    "ERVL": {
+      "simulated": 900,
+      "correct": 260,
+      "recall": 0.289
+    },
+    "ERV1": {
+      "simulated": 900,
+      "correct": 298,
+      "recall": 0.331
+    },
+    "L1": {
+      "simulated": 870,
+      "correct": 537,
+      "recall": 0.617
+    },
+    "SINE_B": {
+      "simulated": 900,
+      "correct": 0,
+      "recall": 0.0
+    },
+    "_coding_exons": {
+      "simulated": 318,
+      "assigned": 1,
+      "false_assignment_rate": 0.0031
+    }
+  },
+  "rpm": {
+    "IAP_rpm": {
+      "Control": 22.0,
+      "TCDD": 48.5
+    },
+    "ETn_rpm": {
+      "Control": 1276.2,
+      "TCDD": 1283.35
+    },
+    "ERVK_oth_rpm": {
+      "Control": 462.07,
+      "TCDD": 443.95
+    },
+    "ERVL_rpm": {
+      "Control": 3.67,
+      "TCDD": 11.19
+    },
+    "ERV1_rpm": {
+      "Control": 84.35,
+      "TCDD": 44.77
+    },
+    "L1_rpm": {
+      "Control": 6615.72,
+      "TCDD": 7103.21
+    },
+    "SINE_B_rpm": {
+      "Control": 850.8,
+      "TCDD": 884.17
+    }
+  },
+  "counts": {
+    "IAP_rpm": {
+      "Control": 6,
+      "TCDD": 13
+    },
+    "ETn_rpm": {
+      "Control": 348,
+      "TCDD": 344
+    },
+    "ERVK_oth_rpm": {
+      "Control": 126,
+      "TCDD": 119
+    },
+    "ERVL_rpm": {
+      "Control": 1,
+      "TCDD": 3
+    },
+    "ERV1_rpm": {
+      "Control": 23,
+      "TCDD": 12
+    },
+    "L1_rpm": {
+      "Control": 1804,
+      "TCDD": 1904
+    },
+    "SINE_B_rpm": {
+      "Control": 232,
+      "TCDD": 237
+    }
+  },
+  "estimable": {
+    "IAP": false,
+    "ETn": true,
+    "ERVK_oth": true,
+    "ERVL": false,
+    "ERV1": false,
+    "L1": true,
+    "SINE_B": true
+  },
+  "tcdd_over_ctrl_ratio": {
+    "IAP_rpm": 2.204,
+    "ETn_rpm": 1.006,
+    "ERVK_oth_rpm": 0.961,
+    "ERVL_rpm": 3.052,
+    "ERV1_rpm": 0.531,
+    "L1_rpm": 1.074,
+    "SINE_B_rpm": 1.039
+  },
+  "median_ratio": 1.0392198798156123,
+  "interpretation": "If every family moves by the same factor, that is library composition, not TE derepression; only families departing from the median are interpretable.",
+  "caveat": "pilot reads a byte-prefix of each FASTQ; 10x files are ordered by barcode, so the prefix is a cell subset, not a random read sample."
+}

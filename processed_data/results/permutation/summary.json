@@ -1,0 +1,16 @@
+{
+  "n_perm": 1000,
+  "n_het_bins": 2359,
+  "null_pool_bins": 113292,
+  "definitions": {
+    "H3K9me3_all": 2359,
+    "H3K9me3_top10": 334,
+    "H3K9me3_top20": 564,
+    "LAD_proxy": 3907
+  },
+  "null_gc_match": {
+    "target": 0.45843187791437046,
+    "null_mean": 0.45910018683092607
+  },
+  "elapsed_s": 23.9
+}

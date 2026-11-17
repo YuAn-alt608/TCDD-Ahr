@@ -1,0 +1,18 @@
+gene,role,n_assoc,n_sig,n_distinct_traits,top_traits,n_ageing,n_cardiovascular,n_lung,n_kidney,n_liver,n_metabolic,n_neuro,n_immune,min_p
+TET2,DNA demethylation,499,451,276,Neutrophil-to-lymphocyte ratio; Prostate cancer; Height; Height (baseline),7,32,22,8,4,59,6,6,1e-300
+FOXO3,longevity,340,313,213,Body mass index; Height; Systolic blood pressure; Intelligence (MTAG),23,10,4,17,0,42,38,1,1.9999999999999998e-195
+DNMT3A,de novo methylation,271,255,122,Waist circumference adjusted for body mass index; Height; Neutrophil-to-lymphocyte ratio; Waist-to-hip ratio adjusted for BMI,5,4,1,0,1,92,1,7,1e-300
+AHR,dioxin receptor (exposure sensor),288,242,181,"Coffee consumption (cups per day); Eosinophil count; Coffee consumption; Caffeine metabolism (plasma 1,7-dimethylxanthine (paraxanthine) to 1,3,7-trimethylxanthine (caffeine) ratio)",9,56,4,23,8,8,0,6,2e-249
+DNMT1,maintenance methylation,127,119,70,Height; ICAM5 protein levels; Systolic blood pressure; Neutrophil count,1,15,0,1,6,5,0,0,2e-212
+UHRF1,hemimethylation reader,124,117,85,Height; Type 2 diabetes; Height (baseline); Hip circumference adjusted for BMI,3,24,1,0,0,18,4,0,7e-306
+EHMT2,G9a H3K9me1/2,96,81,79,Omega-6 fatty acid levels; A body shape index; Polyunsaturated fatty acid levels; Linoleic acid levels,1,16,4,1,0,13,2,15,8e-212
+KDM6B,H3K27me3 demethylase,85,81,51,Eosinophil count; White blood cell count; Platelet count; Systolic blood pressure,3,4,1,0,0,2,0,0,6e-112
+NFE2L2,oxidative stress response,80,71,49,Estimated glomerular filtration rate; Drinks per week; Sarcopenia index; Total testosterone levels,4,3,1,15,0,6,0,0,2.9999999999999998e-40
+SETDB1,H3K9me3 writer,33,28,31,"Actinic keratosis (PheCode 702.1); Whole body fat free mass (UKB data field 23101); Degenerative skin conditions and other dermatoses (PheCode 702); lymphocyte (absolute count, mean, inv-norm transformed)",0,3,0,0,1,4,1,2,9e-29
+EZH2,H3K27me3 writer,27,25,18,Height (baseline); Height; Physical function (baseline); Gout,0,0,1,0,1,1,0,0,5.0000000000000005e-58
+TRIM28,KRAB-ZNF co-repressor,6,4,5,Circulating HSD11B1 levels; PON3 protein levels; HSD11B1 protein levels; Mean corpuscular hemoglobin,0,0,0,0,0,0,0,0,9e-31
+MORC2,heterochromatin compaction,4,4,3,Height; TCN2 protein levels; Descending aorta maximum area,0,0,0,0,0,0,0,0,9.000000000000001e-17
+SIRT1,heterochromatin/sirtuin switch,6,4,6,Hereditary disturbances in tooth structure (PheCode 520.1); Cystatin C levels in bottom 99% of individuals by creatinine levels; Atrial fibrillation (MTAG); Neutrophil count,0,3,0,1,0,0,0,0,8e-14
+SIRT6,H3K9/H3K56 deacetylation,3,3,3,Body size or adipose distribution (multivariate analysis); Height (baseline); Height,0,0,0,0,0,1,0,0,6e-54
+HDAC2,deacetylation,3,2,3,Pulmonary congestion and hypostasis (PheCode 503); Height,0,0,1,0,0,1,0,0,6e-12
+SUV39H1,H3K9me2/3 writer,1,1,1,Abnormal heart sounds (PheCode 396),0,1,0,0,0,0,0,0,4e-10

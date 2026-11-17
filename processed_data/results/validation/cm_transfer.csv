@@ -1,0 +1,9 @@
+group,sender,cm_score,n_pairs,top,arm
+Control,SMC,45.34126465196164,187,Col3a1-Itgb1;Col1a2-Itgb1;Col1a1-Itgb1;Col4a1-Itgb1;Col1a2-Cd93,Control
+Control,ModifiedSMC,55.66491148173741,187,Col1a2-Itgb1;Col3a1-Itgb1;Col1a1-Itgb1;Lum-Itgb1;Fn1-Itgb1,Control
+TCDD_8wk,SMC,41.30565266920628,187,Col3a1-Itgb1;Col1a2-Itgb1;Col1a1-Itgb1;Fn1-Itgb1;Col1a2-Cd93,TCDD
+TCDD_8wk,ModifiedSMC,51.37703210043111,187,Col1a2-Itgb1;Col1a1-Itgb1;Col3a1-Itgb1;Lum-Itgb1;Fn1-Itgb1,TCDD
+TCDD_16wk_WT,SMC,36.925631955280664,187,Col3a1-Itgb1;Col1a2-Itgb1;Col4a1-Itgb1;Fn1-Itgb1;Col1a1-Itgb1,TCDD
+TCDD_16wk_WT,ModifiedSMC,46.95647845563613,187,Col1a2-Itgb1;Lum-Itgb1;Col3a1-Itgb1;Fn1-Itgb1;Col1a1-Itgb1,TCDD
+TCDD_16wk_AhrKO,SMC,43.34947523374878,187,Col3a1-Itgb1;Col1a2-Itgb1;Fn1-Itgb1;Col1a1-Itgb1;Col4a1-Itgb1,AhrKO
+TCDD_16wk_AhrKO,ModifiedSMC,53.03587462159454,187,Col1a2-Itgb1;Fn1-Itgb1;Lum-Itgb1;Col1a1-Itgb1;Col3a1-Itgb1,AhrKO

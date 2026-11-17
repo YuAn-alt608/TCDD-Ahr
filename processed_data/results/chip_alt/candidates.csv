@@ -1,0 +1,10 @@
+gse,genome,title,n_peak_files,verdict
+GSE240495,hg38,Activation of a nongenetic AHR-ELMSAN1 axis optimizes BET-targeting therapy and suppresses leukemia stem cells in preclinical models [CUT&RUN],0,no processed peak files
+GSE304148,hg38,Activation of the aryl hydrocarbon receptor in human melanoma cells enhances cancer cell-intrinsic MHC-II expression [ChIP-seq],0,no processed peak files
+GSE276872,mm10,Aryl-hydrocarbon receptor in smooth muscle cells protect against dioxin induced adverse remodeling of atherosclerosis [scRNA],0,no processed peak files
+GSE276870,mm10,Aryl-hydrocarbon receptor in smooth muscle cells protect against dioxin induced adverse remodeling of atherosclerosis  [scATAC],0,no processed peak files
+GSE276152,hg38,Aryl-hydrocarbon receptor in smooth muscle cells protect against dioxin induced adverse remodeling of atherosclerosis,0,no processed peak files
+GSE276150,hg38,Aryl-hydrocarbon receptor in smooth muscle cells protect against dioxin induced adverse remodeling of atherosclerosis [RNA-seq],1,parsed 0 peaks
+GSE276145,hg38,Aryl-hydrocarbon receptor in smooth muscle cells protect against dioxin induced adverse remodeling of atherosclerosis [ATAC-seq],0,no processed peak files
+GSE205502,hg38,AHR ChIP-seq in primary human hepatocytes treated with TCDD,1,FAIL
+GSE85565,hg38,TCF21 and Aryl-hydrocarbon receptor gene cooperate to activate a pro-atherosclerotic gene expression program,0,no processed peak files

@@ -1,0 +1,436 @@
+{
+  "depth": {
+    "AhrKO_median_counts": 3718,
+    "WT_median_counts": 5114,
+    "CTRL_median_counts": [
+      4682,
+      5378
+    ]
+  },
+  "design_note": "Ahr-KO ATAC library is 27% shallower than WT; thinning equalises depth",
+  "n_seeds": 5,
+  "n_perm": 500,
+  "tf_verdict": {
+    "Ahr::Arnt": {
+      "EC_d_ako_vs_wt": {
+        "full": -0.068,
+        "match_ako": [
+          -0.044,
+          -0.08,
+          -0.022
+        ],
+        "stress_60pct": [
+          0.01,
+          -0.041,
+          0.051
+        ]
+      },
+      "EC_p_ako_vs_wt": {
+        "full": 0.541,
+        "match_ako": [
+          0.724,
+          0.493,
+          0.852
+        ],
+        "stress_60pct": [
+          0.8,
+          0.659,
+          0.994
+        ]
+      },
+      "SMC_d_wt_vs_ctrl": {
+        "full": 0.43,
+        "match_ako": [
+          0.297,
+          0.274,
+          0.318
+        ],
+        "stress_60pct": [
+          0.223,
+          0.213,
+          0.242
+        ]
+      }
+    },
+    "KLF2": {
+      "EC_d_ako_vs_wt": {
+        "full": -0.244,
+        "match_ako": [
+          -0.196,
+          -0.221,
+          -0.177
+        ],
+        "stress_60pct": [
+          -0.183,
+          -0.245,
+          -0.123
+        ]
+      },
+      "EC_p_ako_vs_wt": {
+        "full": 0.038,
+        "match_ako": [
+          0.101,
+          0.066,
+          0.142
+        ],
+        "stress_60pct": [
+          0.135,
+          0.038,
+          0.277
+        ]
+      },
+      "SMC_d_wt_vs_ctrl": {
+        "full": 0.386,
+        "match_ako": [
+          0.26,
+          0.25,
+          0.27
+        ],
+        "stress_60pct": [
+          0.2,
+          0.183,
+          0.211
+        ]
+      }
+    },
+    "SMAD2": {
+      "EC_d_ako_vs_wt": {
+        "full": -0.236,
+        "match_ako": [
+          -0.179,
+          -0.281,
+          -0.097
+        ],
+        "stress_60pct": [
+          -0.16,
+          -0.251,
+          -0.102
+        ]
+      },
+      "EC_p_ako_vs_wt": {
+        "full": 0.052,
+        "match_ako": [
+          0.21,
+          0.018,
+          0.385
+        ],
+        "stress_60pct": [
+          0.196,
+          0.04,
+          0.363
+        ]
+      },
+      "SMC_d_wt_vs_ctrl": {
+        "full": 0.32,
+        "match_ako": [
+          0.217,
+          0.187,
+          0.237
+        ],
+        "stress_60pct": [
+          0.119,
+          0.101,
+          0.135
+        ]
+      }
+    },
+    "ATF2": {
+      "EC_d_ako_vs_wt": {
+        "full": -0.27,
+        "match_ako": [
+          -0.256,
+          -0.339,
+          -0.178
+        ],
+        "stress_60pct": [
+          -0.177,
+          -0.293,
+          -0.087
+        ]
+      },
+      "EC_p_ako_vs_wt": {
+        "full": 0.02,
+        "match_ako": [
+          0.052,
+          0.008,
+          0.14
+        ],
+        "stress_60pct": [
+          0.207,
+          0.014,
+          0.465
+        ]
+      },
+      "SMC_d_wt_vs_ctrl": {
+        "full": 0.082,
+        "match_ako": [
+          0.055,
+          0.038,
+          0.078
+        ],
+        "stress_60pct": [
+          0.032,
+          -0.003,
+          0.062
+        ]
+      }
+    },
+    "FOSL1::JUND": {
+      "EC_d_ako_vs_wt": {
+        "full": -0.249,
+        "match_ako": [
+          -0.209,
+          -0.268,
+          -0.163
+        ],
+        "stress_60pct": [
+          -0.125,
+          -0.198,
+          -0.084
+        ]
+      },
+      "EC_p_ako_vs_wt": {
+        "full": 0.034,
+        "match_ako": [
+          0.092,
+          0.024,
+          0.174
+        ],
+        "stress_60pct": [
+          0.303,
+          0.1,
+          0.447
+        ]
+      },
+      "SMC_d_wt_vs_ctrl": {
+        "full": 0.083,
+        "match_ako": [
+          0.053,
+          0.036,
+          0.085
+        ],
+        "stress_60pct": [
+          0.005,
+          -0.037,
+          0.052
+        ]
+      }
+    },
+    "Nfe2l2": {
+      "EC_d_ako_vs_wt": {
+        "full": 0.038,
+        "match_ako": [
+          0.069,
+          -0.097,
+          0.138
+        ],
+        "stress_60pct": [
+          -0.03,
+          -0.118,
+          0.138
+        ]
+      },
+      "EC_p_ako_vs_wt": {
+        "full": 0.567,
+        "match_ako": [
+          0.451,
+          0.263,
+          0.82
+        ],
+        "stress_60pct": [
+          0.493,
+          0.325,
+          0.918
+        ]
+      },
+      "SMC_d_wt_vs_ctrl": {
+        "full": 0.063,
+        "match_ako": [
+          0.047,
+          0.009,
+          0.063
+        ],
+        "stress_60pct": [
+          0.025,
+          -0.007,
+          0.072
+        ]
+      }
+    },
+    "RELA": {
+      "EC_d_ako_vs_wt": {
+        "full": -0.007,
+        "match_ako": [
+          0.027,
+          -0.028,
+          0.113
+        ],
+        "stress_60pct": [
+          0.005,
+          -0.091,
+          0.066
+        ]
+      },
+      "EC_p_ako_vs_wt": {
+        "full": 0.956,
+        "match_ako": [
+          0.757,
+          0.361,
+          0.98
+        ],
+        "stress_60pct": [
+          0.679,
+          0.417,
+          0.972
+        ]
+      },
+      "SMC_d_wt_vs_ctrl": {
+        "full": 0.035,
+        "match_ako": [
+          0.024,
+          0.007,
+          0.037
+        ],
+        "stress_60pct": [
+          0.028,
+          0.0,
+          0.05
+        ]
+      }
+    }
+  },
+  "domain_verdict": [
+    {
+      "metric": "frac_het",
+      "lineage": "Parenchyma",
+      "full_d": 0.347,
+      "full_p": 0.002,
+      "match_ako_d": 0.299,
+      "match_ako_p": 0.002,
+      "stress_60pct_d": 0.261,
+      "stress_60pct_p": 0.002,
+      "verdict": "holds"
+    },
+    {
+      "metric": "frac_het",
+      "lineage": "Endothelial",
+      "full_d": 0.119,
+      "full_p": 0.202,
+      "match_ako_d": 0.085,
+      "match_ako_p": 0.415,
+      "stress_60pct_d": 0.084,
+      "stress_60pct_p": 0.35,
+      "verdict": "direction only"
+    },
+    {
+      "metric": "frac_het",
+      "lineage": "Mesenchymal",
+      "full_d": -0.036,
+      "full_p": 0.485,
+      "match_ako_d": -0.042,
+      "match_ako_p": 0.422,
+      "stress_60pct_d": -0.043,
+      "stress_60pct_p": 0.459,
+      "verdict": "direction only"
+    },
+    {
+      "metric": "frac_het",
+      "lineage": "Immune",
+      "full_d": 0.112,
+      "full_p": 0.1,
+      "match_ako_d": 0.093,
+      "match_ako_p": 0.184,
+      "stress_60pct_d": 0.104,
+      "stress_60pct_p": 0.136,
+      "verdict": "direction only"
+    },
+    {
+      "metric": "frac_lad",
+      "lineage": "Parenchyma",
+      "full_d": 0.147,
+      "full_p": 0.002,
+      "match_ako_d": 0.141,
+      "match_ako_p": 0.002,
+      "stress_60pct_d": 0.136,
+      "stress_60pct_p": 0.002,
+      "verdict": "holds"
+    },
+    {
+      "metric": "frac_lad",
+      "lineage": "Endothelial",
+      "full_d": -0.168,
+      "full_p": 0.056,
+      "match_ako_d": -0.159,
+      "match_ako_p": 0.092,
+      "stress_60pct_d": -0.15,
+      "stress_60pct_p": 0.115,
+      "verdict": "direction only"
+    },
+    {
+      "metric": "frac_lad",
+      "lineage": "Mesenchymal",
+      "full_d": -0.29,
+      "full_p": 0.002,
+      "match_ako_d": -0.274,
+      "match_ako_p": 0.002,
+      "stress_60pct_d": -0.234,
+      "stress_60pct_p": 0.002,
+      "verdict": "holds"
+    },
+    {
+      "metric": "frac_lad",
+      "lineage": "Immune",
+      "full_d": -0.514,
+      "full_p": 0.002,
+      "match_ako_d": -0.492,
+      "match_ako_p": 0.002,
+      "stress_60pct_d": -0.461,
+      "stress_60pct_p": 0.002,
+      "verdict": "holds"
+    },
+    {
+      "metric": "prom_het_rel",
+      "lineage": "Parenchyma",
+      "full_d": 0.363,
+      "full_p": 0.002,
+      "match_ako_d": 0.34,
+      "match_ako_p": 0.002,
+      "stress_60pct_d": 0.262,
+      "stress_60pct_p": 0.002,
+      "verdict": "holds"
+    },
+    {
+      "metric": "prom_het_rel",
+      "lineage": "Endothelial",
+      "full_d": 0.281,
+      "full_p": 0.004,
+      "match_ako_d": 0.243,
+      "match_ako_p": 0.018,
+      "stress_60pct_d": 0.139,
+      "stress_60pct_p": 0.189,
+      "verdict": "holds"
+    },
+    {
+      "metric": "prom_het_rel",
+      "lineage": "Mesenchymal",
+      "full_d": 0.239,
+      "full_p": 0.002,
+      "match_ako_d": 0.199,
+      "match_ako_p": 0.004,
+      "stress_60pct_d": 0.138,
+      "stress_60pct_p": 0.043,
+      "verdict": "holds"
+    },
+    {
+      "metric": "prom_het_rel",
+      "lineage": "Immune",
+      "full_d": -0.118,
+      "full_p": 0.084,
+      "match_ako_d": -0.127,
+      "match_ako_p": 0.091,
+      "stress_60pct_d": -0.204,
+      "stress_60pct_p": 0.01,
+      "verdict": "direction only"
+    }
+  ]
+}

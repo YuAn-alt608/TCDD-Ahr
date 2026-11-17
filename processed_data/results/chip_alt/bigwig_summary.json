@@ -1,0 +1,24 @@
+{
+  "datasets": [
+    "GSE240495_AHR_CUTRUN_K562",
+    "GSE276152_AHR_ChIP_HCASMC_DMSO",
+    "GSE276152_AHR_ChIP_HCASMC_TCDD",
+    "GSE304148_AHR_ChIP_SKMEL2_AHROE",
+    "GSE304148_AHR_ChIP_SKMEL2_control"
+  ],
+  "n_targets_above_p95": {
+    "GSE240495_AHR_CUTRUN_K562|10kb": 1,
+    "GSE240495_AHR_CUTRUN_K562|2kb": 1,
+    "GSE276152_AHR_ChIP_HCASMC_DMSO|10kb": 1,
+    "GSE276152_AHR_ChIP_HCASMC_DMSO|2kb": 0,
+    "GSE276152_AHR_ChIP_HCASMC_TCDD|10kb": 1,
+    "GSE276152_AHR_ChIP_HCASMC_TCDD|2kb": 1,
+    "GSE304148_AHR_ChIP_SKMEL2_AHROE|10kb": 2,
+    "GSE304148_AHR_ChIP_SKMEL2_AHROE|2kb": 1,
+    "GSE304148_AHR_ChIP_SKMEL2_control|10kb": 2,
+    "GSE304148_AHR_ChIP_SKMEL2_control|2kb": 2
+  },
+  "gate": "PASS = >=2/6 canonical targets above the 95th percentile of 3,000 random TSS windows at +-2 kb",
+  "n_random_windows": 3000,
+  "caveat": "Signal-based, not peak-based: no peak caller and no pyBigWig wheel for this Python, so a broad low plateau would score like a summit. Reported as binding potential, never as a binding call."
+}

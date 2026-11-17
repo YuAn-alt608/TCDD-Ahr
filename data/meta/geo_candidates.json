@@ -1,0 +1,1702 @@
+[
+ {
+  "gse": "GSE348843",
+  "title": "Chronic Air Pollution Exposure Drives Atherogenesis through Endothelial Reprogramming",
+  "taxon": "Mus musculus",
+  "n_samples": 4,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/10/05",
+  "summary": "Fine particulate matter air pollution (PM 2.5) is the leading environmental risk factor for premature morbidity and mortality, primarily through its role in atherosclerotic cardiovascular disease (ASCVD). Although epidemiological links between PM 2.5 and ASCVD outcomes are well established, the molecular and cellular mechanisms driving pollution-induced atherogenesis remain poorly defined. This st",
+  "query": "pm25_lung_sc"
+ },
+ {
+  "gse": "GSE242697",
+  "title": "Single-cell RNA sequencing of iALI epithelial and mesenchymal cell derived from UHOMi003-A cell line",
+  "taxon": "Homo sapiens",
+  "n_samples": 3,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/04/07",
+  "summary": "This study aims to specify the effect of air pollution (PM2.5 developed by NIST), on bronchial epithelium generated from induced pluripotent stem cells, called iALI. The exposition was performed during 15 days on basal side and media was changed everyday. We performed single-cell RNA-sequencing (10x Genomics Chromium) to capture 10 000 cells on EpCAM+ cells (epithelial cells) and on EpCAM- cells (",
+  "query": "pm25_lung_sc"
+ },
+ {
+  "gse": "GSE307673",
+  "title": "Maternal PM2.5 Exposure Impairs Inguinal White Adipose Tissue Plasticity in Middle-aged Male Mouse Offspring",
+  "taxon": "Mus musculus",
+  "n_samples": 6,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/02/25",
+  "summary": "In this study, we investigated the long-term adverse metabolic effects of maternal fine particulate matter (PM2.5) exposure on offspring, systematically characterized the pathogenic remodeling of inguinal white adipose tissue (iWAT) in middle-aged male offspring through scRNA-seq, and explored the underlying mechanisms of iWAT fibrosis under in vivo and in vitro conditions.",
+  "query": "pm25_lung_sc"
+ },
+ {
+  "gse": "GSE300837",
+  "title": "Genetic susceptibility to PM2.5 exposure drives transcriptional responses in pediatric asthma: insights from single-cell transcriptomics",
+  "taxon": "Homo sapiens",
+  "n_samples": 16,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/02/25",
+  "summary": "Background. Exposure to fine particulate matter (PM2.5) increases asthma severity and reduces glucocorticoid responsiveness in children, yet the molecular mechanisms underlying PM2.5 sensitivity remain unclear. We previously identified a PM2.5-sensitive asthma phenotype and developed a PM2.5 sensitivity polygenic risk score (sPRS) correlated with asthma exacerbations and lung function decline. Thi",
+  "query": "pm25_lung_sc"
+ },
+ {
+  "gse": "GSE296297",
+  "title": "Single-cell gene expression profiles of mice lung tissue under PM2.5 exposure",
+  "taxon": "Mus musculus",
+  "n_samples": 26,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2025/05/06",
+  "summary": "Numerous epidemiological studies have demonstrated a significant association between PM2.5 exposure and pulmonary diseases. PM2.5 may contribute to epithelial injury and immune dysregulation in lung cells. In this study, we provide single-cell level gene expression profiles of mouse lungs under PM2.5 exposure, offering insights into the microenvironmental alterations and physiological responses in",
+  "query": "pm25_lung_sc"
+ },
+ {
+  "gse": "GSE352604",
+  "title": "Transcriptional dynamics of hepatic non-parenchymal cells in fibrotic mice treated with MSCs or  MSC-derived cell debris (MSC-CD) [scRNA-seq]",
+  "taxon": "Mus musculus",
+  "n_samples": 4,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/11/03",
+  "summary": "Liver fibrosis is driven by hepatic stellate cell (HSC) activation and pro-inflammatory macrophage responses. Whether non-viable mesenchymal stromal cell (MSC)-derived material can reproduce the effects of MSCs on these cell populations remains unclear. Through single-cell transcriptomic profiling of hepatic non-parenchymal cells from control and CCl₄-induced fibrotic mice, we found that both MSCs",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE352630",
+  "title": "Local and circulating cytotoxic CD4 T cells are early markers of disease activity in pediatric Crohn’s disease",
+  "taxon": "Homo sapiens",
+  "n_samples": 8,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/10/31",
+  "summary": "Inflammatory bowel disease (IBD) requires improved molecular and cellular stratification to guide therapy. In the PREDICT study, we profiled intestinal and blood T cells from treatment-naïve pediatric patients with IBD, disorders of gut–brain interaction controls, and healthy donors using single-cell RNA sequencing. Across 107 participants, we identify a population of clonally expanded cytotoxic C",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE352007",
+  "title": "Single nucleus transcriptomics of the mouse preoptic area reveals sex-dependent molecular signatures of social dominance",
+  "taxon": "Mus musculus",
+  "n_samples": 4,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/10/23",
+  "summary": "Social dominance hierarchies are a common form of social organization across animal species. We have previously shown that both male and female CD-1 mice form highly linear dominance hierarchies. In mice and other vertebrates, the preoptic area (POA) is a key hypothalamic sub-region regulating aggressive and defensive behaviors that support hierarchical social structures, but the transcriptional m",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE348019",
+  "title": "Vascular specification from diversified mesoderm culminates in endothelial convergence [MARS-Seq]",
+  "taxon": "Mus musculus",
+  "n_samples": 17,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/10/01",
+  "summary": "Vasculogenesis establishes the embryonic circulatory system, yet how a common vascular program emerges across multiple embryonic and extraembryonic developmental environments remains incompletely understood. Here we reconstruct mouse vasculogenesis through integrated single-cell, spatial, lineage and perturbation analyses. Vascular specification emerges from distinct sources of pre-specified mesod",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE347999",
+  "title": "Vascular specification from diversified mesoderm culminates in endothelial convergence [scRNA-Seq]",
+  "taxon": "Mus musculus",
+  "n_samples": 6,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/10/01",
+  "summary": "Vasculogenesis establishes the embryonic circulatory system, yet how a common vascular program emerges across multiple embryonic and extraembryonic developmental environments remains incompletely understood. Here we reconstruct mouse vasculogenesis through integrated single-cell, spatial, lineage and perturbation analyses. Vascular specification emerges from distinct sources of pre-specified mesod",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE346721",
+  "title": "Single-Cell and Spatial Transcriptomics Across Populations With Perianal Fistulizing Crohn’s Disease Shows Proinflammatory CD4+ Macrophage Involvement in Disease Progression",
+  "taxon": "Homo sapiens",
+  "n_samples": 50,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/10/01",
+  "summary": "Background and aims: Perianal fistulizing Crohn’s disease (CD) is a severe complication associated with altered immune and tissue responses. This study aimed to identify cellular and molecular features distinguishing inflamed rectal CD with and without fistula across African American (AA) and European American (EA) populations. Results: Single-cell sequencing of 262,000 rectal mucosal cells reveal",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE335832",
+  "title": "Single-Cell RNA Sequencing Reveals Distinct Immune Cell Profiles in Lower Extremity Artery Disease Plaques",
+  "taxon": "Homo sapiens",
+  "n_samples": 12,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/10/01",
+  "summary": "Backgrounds Lower extremity artery disease (LEAD) is a common manifestation of systemic atherosclerosis and is frequently associated with coronary and cerebrovascular disease. Although lipid-lowering therapy and risk factor control are essential, residual inflammatory risk remains a key determinant of adverse outcomes. Given the established link between inflammation and immune cells, we applied si",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE317197",
+  "title": "Single cell RNA-sequencing of embryonic mouse eye",
+  "taxon": "Mus musculus",
+  "n_samples": 10,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/10/01",
+  "summary": "Here, we present single cell transcriptomic analysis (scRNA-seq) of E8.5-E9.5-E10.5 eye embryogenesis to define mechanisms of cell fate decisions that generate lens, olfactory and adenohypophyseal placodes, multipotent retinal progenitor cells (RPCs), early retinal pigment epithelium (RPE), and the optic stalk.",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE315279",
+  "title": "Vascular smooth muscle cell abundance is a hallmark of Castleman Disease",
+  "taxon": "Homo sapiens",
+  "n_samples": 41,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/10/01",
+  "summary": "Castleman Disease (CD) is a poorly understood inflammatory disorder characterized by enlarged lymph nodes with distinctive histologic features. Its opaque pathophysiology delays diagnoses and limits treatments, leading to additional morbidity and mortality. Since lymph nodes are the key lesional tissue for the disease, we sought to better understand the molecular and cellular underpinnings of CD l",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE331003",
+  "title": "Intestinal T-bet+ plasmablasts mediate epithelial barrier dysfunction and inflammatory bowel disease",
+  "taxon": "Homo sapiens",
+  "n_samples": 66,
+  "gdstype": "Expression profiling by high throughput sequencing; Other",
+  "pdat": "2026/09/23",
+  "summary": "Crohn’s disease (CD) and ulcerative colitis (UC) are complex diseases characterized by epithelial barrier dysfunction and intestinal inflammation. While B cells have historically received limited attention in inflammatory bowel disease (IBD) research, recent studies have highlighted the accumulation of IgG+ cells in inflamed tissues. In this study, we confirmed the enrichment of IgG⁺ antibody-secr",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE311585",
+  "title": "New taxonomy based on individual patient-reported response trajectories defines ulcerative colitis endotypes and reveals vascular inflammation as a mechanism for vedolizumab nonresponse [CITE-seq]",
+  "taxon": "Homo sapiens",
+  "n_samples": 44,
+  "gdstype": "Expression profiling by high throughput sequencing; Other",
+  "pdat": "2026/09/15",
+  "summary": "A major barrier to precision medicine for ulcerative colitis (UC) is the inability to predict and mechanistically explain treatment responses. Using daily patient-reported outcomes from a phase 3b comparative trial of 768 participants, we identified four distinct patient response trajectory groups for vedolizumab (anti-integrin) and adalimumab (antitumor necrosis factor) in UC. Validation in a sec",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE325733",
+  "title": "Barcoded lineage tracing of diverse cell types within the developing mouse embryonic gut.",
+  "taxon": "Mus musculus",
+  "n_samples": 8,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/09/03",
+  "summary": "The gut is a heterogeneous organ consisting of derivatives of all three germ layers. To determine the lineage relationship between different gut cells, we labelled embryos with barcoded lentivirus at embryonic day 7.5 (E7.5), collected different regions of the gut at E16.5 and performed single cell RNA-sequencing(scRNA-seq). We analysed different types of mesenchymal, endothelial, epithelial and i",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE342607",
+  "title": "Comprehensive Lineage Tracing Maps the Landscape of Cell Fate Decisions in Mouse Embryogenesis",
+  "taxon": "Mus musculus",
+  "n_samples": 32,
+  "gdstype": "Expression profiling by high throughput sequencing; Other",
+  "pdat": "2026/09/01",
+  "summary": "This SuperSeries is composed of the SubSeries listed below.",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE342606",
+  "title": "Comprehensive Lineage Tracing Maps the Landscape of Cell Fate Decisions in Mouse Embryogenesis [DevMap_mouse_E10.0-R1]",
+  "taxon": "Mus musculus",
+  "n_samples": 2,
+  "gdstype": "Expression profiling by high throughput sequencing; Other",
+  "pdat": "2026/09/01",
+  "summary": "Mammalian development proceeds through a series of cell fate decisions that transform a single zygote into a complex embryo, yet the lineage relationships underlying these decisions have been difficult to resolve in vivo. Here we use PEtracer, a prime-editing based molecular recorder that continuously installs heritable genetic marks at engineered target sites as cells divide, to reconstruct high-",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE342272",
+  "title": "Comprehensive Lineage Tracing Maps the Landscape of Cell Fate Decisions in Mouse Embryogenesis [DevMap_mouse_E9.5-R3]",
+  "taxon": "Mus musculus",
+  "n_samples": 2,
+  "gdstype": "Expression profiling by high throughput sequencing; Other",
+  "pdat": "2026/09/01",
+  "summary": "Mammalian development proceeds through a series of cell fate decisions that transform a single zygote into a complex embryo, yet the lineage relationships underlying these decisions have been difficult to resolve in vivo. Here we use PEtracer, a prime-editing based molecular recorder that continuously installs heritable genetic marks at engineered target sites as cells divide, to reconstruct high-",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE342270",
+  "title": "Comprehensive Lineage Tracing Maps the Landscape of Cell Fate Decisions in Mouse Embryogenesis [DevMap_mouse_E9.5-R2]",
+  "taxon": "Mus musculus",
+  "n_samples": 2,
+  "gdstype": "Expression profiling by high throughput sequencing; Other",
+  "pdat": "2026/09/01",
+  "summary": "Mammalian development proceeds through a series of cell fate decisions that transform a single zygote into a complex embryo, yet the lineage relationships underlying these decisions have been difficult to resolve in vivo. Here we use PEtracer, a prime-editing based molecular recorder that continuously installs heritable genetic marks at engineered target sites as cells divide, to reconstruct high-",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE342240",
+  "title": "Comprehensive Lineage Tracing Maps the Landscape of Cell Fate Decisions in Mouse Embryogenesis [DevMap_mouse_E9.5-R1]",
+  "taxon": "Mus musculus",
+  "n_samples": 2,
+  "gdstype": "Expression profiling by high throughput sequencing; Other",
+  "pdat": "2026/09/01",
+  "summary": "Mammalian development proceeds through a series of cell fate decisions that transform a single zygote into a complex embryo, yet the lineage relationships underlying these decisions have been difficult to resolve in vivo. Here we use PEtracer, a prime-editing based molecular recorder that continuously installs heritable genetic marks at engineered target sites as cells divide, to reconstruct high-",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE342239",
+  "title": "Comprehensive Lineage Tracing Maps the Landscape of Cell Fate Decisions in Mouse Embryogenesis [DevMap_mouse_E9.0-R3]",
+  "taxon": "Mus musculus",
+  "n_samples": 2,
+  "gdstype": "Expression profiling by high throughput sequencing; Other",
+  "pdat": "2026/09/01",
+  "summary": "Mammalian development proceeds through a series of cell fate decisions that transform a single zygote into a complex embryo, yet the lineage relationships underlying these decisions have been difficult to resolve in vivo. Here we use PEtracer, a prime-editing based molecular recorder that continuously installs heritable genetic marks at engineered target sites as cells divide, to reconstruct high-",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE342238",
+  "title": "Comprehensive Lineage Tracing Maps the Landscape of Cell Fate Decisions in Mouse Embryogenesis [DevMap_mouse_E9.0-R2]",
+  "taxon": "Mus musculus",
+  "n_samples": 2,
+  "gdstype": "Expression profiling by high throughput sequencing; Other",
+  "pdat": "2026/09/01",
+  "summary": "Mammalian development proceeds through a series of cell fate decisions that transform a single zygote into a complex embryo, yet the lineage relationships underlying these decisions have been difficult to resolve in vivo. Here we use PEtracer, a prime-editing based molecular recorder that continuously installs heritable genetic marks at engineered target sites as cells divide, to reconstruct high-",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE342237",
+  "title": "Comprehensive Lineage Tracing Maps the Landscape of Cell Fate Decisions in Mouse Embryogenesis [DevMap_mouse_E9.0-R1]",
+  "taxon": "Mus musculus",
+  "n_samples": 2,
+  "gdstype": "Expression profiling by high throughput sequencing; Other",
+  "pdat": "2026/09/01",
+  "summary": "Mammalian development proceeds through a series of cell fate decisions that transform a single zygote into a complex embryo, yet the lineage relationships underlying these decisions have been difficult to resolve in vivo. Here we use PEtracer, a prime-editing based molecular recorder that continuously installs heritable genetic marks at engineered target sites as cells divide, to reconstruct high-",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE342236",
+  "title": "Comprehensive Lineage Tracing Maps the Landscape of Cell Fate Decisions in Mouse Embryogenesis [DevMap_mouse_E8.5-R3]",
+  "taxon": "Mus musculus",
+  "n_samples": 2,
+  "gdstype": "Expression profiling by high throughput sequencing; Other",
+  "pdat": "2026/09/01",
+  "summary": "Mammalian development proceeds through a series of cell fate decisions that transform a single zygote into a complex embryo, yet the lineage relationships underlying these decisions have been difficult to resolve in vivo. Here we use PEtracer, a prime-editing based molecular recorder that continuously installs heritable genetic marks at engineered target sites as cells divide, to reconstruct high-",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE342233",
+  "title": "Comprehensive Lineage Tracing Maps the Landscape of Cell Fate Decisions in Mouse Embryogenesis [DevMap_mouse_E8.5-R2]",
+  "taxon": "Mus musculus",
+  "n_samples": 2,
+  "gdstype": "Expression profiling by high throughput sequencing; Other",
+  "pdat": "2026/09/01",
+  "summary": "Mammalian development proceeds through a series of cell fate decisions that transform a single zygote into a complex embryo, yet the lineage relationships underlying these decisions have been difficult to resolve in vivo. Here we use PEtracer, a prime-editing based molecular recorder that continuously installs heritable genetic marks at engineered target sites as cells divide, to reconstruct high-",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE342232",
+  "title": "Comprehensive Lineage Tracing Maps the Landscape of Cell Fate Decisions in Mouse Embryogenesis [DevMap_mouse_E8.5-R1]",
+  "taxon": "Mus musculus",
+  "n_samples": 2,
+  "gdstype": "Expression profiling by high throughput sequencing; Other",
+  "pdat": "2026/09/01",
+  "summary": "Mammalian development proceeds through a series of cell fate decisions that transform a single zygote into a complex embryo, yet the lineage relationships underlying these decisions have been difficult to resolve in vivo. Here we use PEtracer, a prime-editing based molecular recorder that continuously installs heritable genetic marks at engineered target sites as cells divide, to reconstruct high-",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE342231",
+  "title": "Comprehensive Lineage Tracing Maps the Landscape of Cell Fate Decisions in Mouse Embryogenesis [DevMap_mouse_E8.0-R3]",
+  "taxon": "Mus musculus",
+  "n_samples": 2,
+  "gdstype": "Expression profiling by high throughput sequencing; Other",
+  "pdat": "2026/09/01",
+  "summary": "Mammalian development proceeds through a series of cell fate decisions that transform a single zygote into a complex embryo, yet the lineage relationships underlying these decisions have been difficult to resolve in vivo. Here we use PEtracer, a prime-editing based molecular recorder that continuously installs heritable genetic marks at engineered target sites as cells divide, to reconstruct high-",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE342230",
+  "title": "Comprehensive Lineage Tracing Maps the Landscape of Cell Fate Decisions in Mouse Embryogenesis [DevMap_mouse_E8.0-R2]",
+  "taxon": "Mus musculus",
+  "n_samples": 2,
+  "gdstype": "Expression profiling by high throughput sequencing; Other",
+  "pdat": "2026/09/01",
+  "summary": "Mammalian development proceeds through a series of cell fate decisions that transform a single zygote into a complex embryo, yet the lineage relationships underlying these decisions have been difficult to resolve in vivo. Here we use PEtracer, a prime-editing based molecular recorder that continuously installs heritable genetic marks at engineered target sites as cells divide, to reconstruct high-",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE342229",
+  "title": "Comprehensive Lineage Tracing Maps the Landscape of Cell Fate Decisions in Mouse Embryogenesis [DevMap_mouse_E8.0-R1]",
+  "taxon": "Mus musculus",
+  "n_samples": 2,
+  "gdstype": "Expression profiling by high throughput sequencing; Other",
+  "pdat": "2026/09/01",
+  "summary": "Mammalian development proceeds through a series of cell fate decisions that transform a single zygote into a complex embryo, yet the lineage relationships underlying these decisions have been difficult to resolve in vivo. Here we use PEtracer, a prime-editing based molecular recorder that continuously installs heritable genetic marks at engineered target sites as cells divide, to reconstruct high-",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE342228",
+  "title": "Comprehensive Lineage Tracing Maps the Landscape of Cell Fate Decisions in Mouse Embryogenesis [DevMap_mouse_E7.5-R3]",
+  "taxon": "Mus musculus",
+  "n_samples": 2,
+  "gdstype": "Expression profiling by high throughput sequencing; Other",
+  "pdat": "2026/09/01",
+  "summary": "Mammalian development proceeds through a series of cell fate decisions that transform a single zygote into a complex embryo, yet the lineage relationships underlying these decisions have been difficult to resolve in vivo. Here we use PEtracer, a prime-editing based molecular recorder that continuously installs heritable genetic marks at engineered target sites as cells divide, to reconstruct high-",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE342227",
+  "title": "Comprehensive Lineage Tracing Maps the Landscape of Cell Fate Decisions in Mouse Embryogenesis [DevMap_mouse_E7.5-R2]",
+  "taxon": "Mus musculus",
+  "n_samples": 2,
+  "gdstype": "Expression profiling by high throughput sequencing; Other",
+  "pdat": "2026/09/01",
+  "summary": "Mammalian development proceeds through a series of cell fate decisions that transform a single zygote into a complex embryo, yet the lineage relationships underlying these decisions have been difficult to resolve in vivo. Here we use PEtracer, a prime-editing based molecular recorder that continuously installs heritable genetic marks at engineered target sites as cells divide, to reconstruct high-",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE342226",
+  "title": "Comprehensive Lineage Tracing Maps the Landscape of Cell Fate Decisions in Mouse Embryogenesis [DevMap_mouse_E7.5-R1]",
+  "taxon": "Mus musculus",
+  "n_samples": 2,
+  "gdstype": "Expression profiling by high throughput sequencing; Other",
+  "pdat": "2026/09/01",
+  "summary": "Mammalian development proceeds through a series of cell fate decisions that transform a single zygote into a complex embryo, yet the lineage relationships underlying these decisions have been difficult to resolve in vivo. Here we use PEtracer, a prime-editing based molecular recorder that continuously installs heritable genetic marks at engineered target sites as cells divide, to reconstruct high-",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE338775",
+  "title": "The Histone Demethylase KDM6B Restrains Hypermetabolic LYVE1+ Perivascular Macrophages and Preserves Adipogenic Balance [scRNA-Seq]",
+  "taxon": "Mus musculus",
+  "n_samples": 16,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/09/01",
+  "summary": "We employed single-cell RNA sequencing to study adipose tissue macrophages isolated from epididymal white adipose tissue of wild-type and macrophage-specific KDM6B knockout mice fed a high-fat diet for 5 weeks. This study was designed to identify macrophage subpopulations and genotype-dependent transcriptional changes associated with KDM6B deficiency during early diet-induced obesity. These data p",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE327450",
+  "title": "Single cell RNA-sequencing across striatal subregions and cell types in early-grade Huntington’s disease and controls [snRNA-Seq]",
+  "taxon": "Homo sapiens",
+  "n_samples": 36,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/09/01",
+  "summary": "The molecular mechanisms that underlie striatal subregional and cell subtype-specific vulnerabilities and the cascade of molecular events occurring during Huntington’s disease remain poorly defined. Gene expression libraries from early-grade Huntington’s disease striatum across two striatal subregions were profiled and compared to controls to understand dynamics of cell loss and transcriptional dy",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE320250",
+  "title": "Perturb-seq delineates gene regulatory programs governing the biology of hematopoietic stem and progenitor cells",
+  "taxon": "Escherichia coli; Mus musculus",
+  "n_samples": 23,
+  "gdstype": "Expression profiling by high throughput sequencing; Other",
+  "pdat": "2026/08/27",
+  "summary": "To sustain blood formation, hematopoietic stem and progenitor cells (HSPCs) coordinate a multitude of cell biological processes, from cell-cycle control and stress responses to lineage priming. How genetic perturbations shape these elemental programs in HSPCs, and how such programs relate to stem-cell-associated phenotypes, remains incompletely understood. Here we use Perturb-seq to profile the tr",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE341627",
+  "title": "In vivo recording & reconstruction of the cell lineage history of a mouse with DNA Typewriter, from zygote to late organogenesis",
+  "taxon": "Mus musculus",
+  "n_samples": 14,
+  "gdstype": "Expression profiling by high throughput sequencing; Other",
+  "pdat": "2026/08/26",
+  "summary": "The complete cell lineage of C. elegans, mapped over four decades ago, was tractable because the animal is small, transparent, and lineage-invariant. Most animals are none of these, having orders of magnitude more cells, being opaque, and developing with substantial stochasticity. Since 2016, genome editing-based lineage tracing has opened the door to dense cell lineage reconstruction in such orga",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE324905",
+  "title": "Early lineage divergence segregates sensory-related and motor-associative identities in the thalamus [snRNAseq - CRi]",
+  "taxon": "Mus musculus",
+  "n_samples": 4,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/08/26",
+  "summary": "The thalamus integrates sensory, motor, and associative functions via distinct nuclei, yet the developmental principles driving their specification remains unclear. Here, we generate a spatiotemporal single-cell multiomic and spatial transcriptomic atlas of the embryonic mouse thalamus, combined with barcoding-based lineage tracing. We identify two major glutamatergic lineages, sensory-related and",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE300287",
+  "title": "Early lineage divergence segregates sensory-related and motor-associative identities in the thalamus [snRNAseq - TrackerSeq]",
+  "taxon": "Mus musculus",
+  "n_samples": 4,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/08/26",
+  "summary": "The thalamus integrates sensory, motor, and associative functions via distinct nuclei, yet the developmental principles driving their specification remains unclear. Here, we generate a spatiotemporal single-cell multiomic and spatial transcriptomic atlas of the embryonic mouse thalamus, combined with barcoding-based lineage tracing. We identify two major glutamatergic lineages, sensory-related and",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE266636",
+  "title": "Single-cell RNA-seq atlas of mouse embryos during gastrulation",
+  "taxon": "Mus musculus",
+  "n_samples": 15,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/08/26",
+  "summary": "Here, we generated an updated single-cell transcriptional reference of mouse gastrulation and early organogenesis using a strategy designed to enable straightforward stratification of individual biological replicates when sequenced as a pool, as well as recovery of allelic chromosome X information in females. Specifically, we generated embryos using CAST/EiJ × C57BL/6J F1 sperm, such that the resu",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE277496",
+  "title": "Single-cell multiomics of peripheral blood monocytes in Crohn's Disease",
+  "taxon": "Homo sapiens",
+  "n_samples": 12,
+  "gdstype": "Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2026/07/23",
+  "summary": "Dysfunctional intestinal monocyte-derived macrophages contribute to pathology in Inflammatory Bowel Disease (IBD). Signals from the tissue micro-environment contribute to this dysfunction, however growing evidence suggests that monocytes can be primed for inflammatory function prior to tissue recruitment.  Here we use single-nucleus multiomics, comprising RNA sequencing (RNA-seq) and assay for tra",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE302413",
+  "title": "Effect of coixenolide on pancreatic tumor gene expression in HFD and CD groups",
+  "taxon": "Mus musculus",
+  "n_samples": 13,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/07/17",
+  "summary": "To investigate the mechanism of coixenolide in obesity-associated PAAD, we established both CD and HFD murine models. Tumor tissues were collected post-coixenolide intervention. Our study revealed the immunomodulatory effects of coixenolide on obesity-linked pancreatic carcinogenesis",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE283328",
+  "title": "Charting the transition from in vitro gliogenesis to the in vivo maturation of human glial progenitor cells transplanted into the hypomyelinated mouse brain",
+  "taxon": "Homo sapiens; Mus musculus",
+  "n_samples": 13,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/07/17",
+  "summary": "Neither rodent models nor in vitro studies of human cells adequately reflect the molecular regulation of human glial progenitor cell (hGPC) expansion, differentiation, and myelination in vivo. To better understand this process, we used scRNA-seq of >60,000 human cells to track the differentiation of hGPCs from pluripotent stem cells (PSCs), both in vitro and in vivo. In vitro, the hGPC pool compri",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE275292",
+  "title": "Tonicity drives maturation of the collecting ducts in the mammalian kidney",
+  "taxon": "Homo sapiens; Mus musculus",
+  "n_samples": 15,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/07/15",
+  "summary": "Organ maturation is a fundamental question in biology and a key requisite for organoid maturation in regenerative medicine. As the kidney matures, the osmolality in the renal medulla increases for urine concentration, but how this extreme environment conversely contributes to kidney maturation is unclear. Here we show that high tonicity, i.e. high salt concentration, promotes the maturation of mou",
+  "query": "cadmium_sc"
+ },
+ {
+  "gse": "GSE276872",
+  "title": "Aryl-hydrocarbon receptor in smooth muscle cells protect against dioxin induced adverse remodeling of atherosclerosis [scRNA]",
+  "taxon": "Mus musculus",
+  "n_samples": 18,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/10/01",
+  "summary": "Introduction: Environmental exposure to dioxin has been linked to increased myocardial infarction. Smooth muscle cells (SMC) in the coronary vasculature play a critical role in atherosclerotic plaque remodeling due to their phenotypic plasticity, however, the detailed mechanism linking dioxin exposure to adverse SMC modulation is not well understood. Methods: Single-cell RNA and ATAC sequencing an",
+  "query": "tcdd_liver_sc"
+ },
+ {
+  "gse": "GSE276150",
+  "title": "Aryl-hydrocarbon receptor in smooth muscle cells protect against dioxin induced adverse remodeling of atherosclerosis [RNA-seq]",
+  "taxon": "Homo sapiens",
+  "n_samples": 14,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/01/01",
+  "summary": "Introduction: Environmental exposure to dioxin has been linked to increased myocardial infarction. Smooth muscle cells (SMC) in the coronary vasculature play a critical role in atherosclerotic plaque remodeling due to their phenotypic plasticity, however, the detailed mechanism linking dioxin exposure to adverse SMC modulation is not well understood. Methods: Single-cell RNA and ATAC sequencing an",
+  "query": "tcdd_liver_sc"
+ },
+ {
+  "gse": "GSE309106",
+  "title": "Single-cell RNA Sequencing Reveals Multiple Pathways Involving Pulmonary Immune and Epithelial Cells Through which Aryl Hydrocarbon Receptor Activation Attenuates Acute Respiratory Distress Syndrome",
+  "taxon": "Mus musculus",
+  "n_samples": 2,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2025/11/03",
+  "summary": "Acute Respiratory Distress Syndrome (ARDS) is a severe inflammatory lung disorder triggered by pneumonia, sepsis, trauma, and COVID-19, leading to high mortality. In this study, we investigated the effect of Aryl Hydrocarbon Receptor (AhR) activation by 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD), a potent ligand, on LPS-induced ARDS in mice using single-cell RNA sequencing (scRNA-seq). scRNA-seq r",
+  "query": "tcdd_liver_sc"
+ },
+ {
+  "gse": "GSE303102",
+  "title": "Aryl hydrocarbon receptor ligands drive pancreatic cancer initiation and progression through pro-tumorigenic T cell polarization",
+  "taxon": "Mus musculus",
+  "n_samples": 4,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2025/07/31",
+  "summary": "Here, we aimed to determine whether AhR ligands found in cigarette smoke, such as TCDD, promote pancreatic dysplasia and PDAC progression. We utilized an orthotopic mouse model of PDAC and collected pancreatic tissue from mice treated with either TCDD or a vehicle control and performed single-cell RNA sequencing to assess changes in the tumor microenvironment.",
+  "query": "tcdd_liver_sc"
+ },
+ {
+  "gse": "GSE297700",
+  "title": "Beneficial and detrimental consequences of AHR stimulation in intestinal infection",
+  "taxon": "Mus musculus",
+  "n_samples": 23,
+  "gdstype": "Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2025/06/25",
+  "summary": "The ligand dependent transcription factor aryl hydrocarbon receptor (AHR) is an environmental sensor whose activation can have physiologically beneficial or detrimental consequences for host immune responses depending on the ligand. Here we investigated the hypothesis that prolonged AHR activation either due to inefficient ligand metabolism or due to genetic manipulation may underlie the distincti",
+  "query": "tcdd_liver_sc"
+ },
+ {
+  "gse": "GSE196340",
+  "title": "The Aryl Hydrocarbon Receptor Directs the Differentiation of Progenitor Blastomeres",
+  "taxon": "Mus musculus",
+  "n_samples": 336,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2025/02/07",
+  "summary": "Key regulatory decisions during cleavage divisions in mammalian embryogenesis determine the fate of preimplantation embryonic cells.  Single-cell RNA-sequencing of early stage—2-cell, 4-cell, and 8-cell—blastomeres show that the aryl hydrocarbon receptor (AHR), traditionally considered as an environmental sensor, directs the segregation of 4-cell blastomeres.  Disruption of endogenous AHR function",
+  "query": "tcdd_liver_sc"
+ },
+ {
+  "gse": "GSE254121",
+  "title": "Time-Course Analysis of Hepatic Single-Nuclei RNA-Sequencing in Mice Treated with  2,3,7,8-Tetrachlorodibenzo-p-dioxin (TCDD)",
+  "taxon": "Mus musculus",
+  "n_samples": 42,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2024/08/20",
+  "summary": "2,3,7,8-Tetrachlorodibenzo-p-dioxin (TCDD) is a persistent environmental contaminant that disrupts normal hepatic function. This disruption leads to the development and progression of non-alcoholic fatty liver disease (NAFLD) pathologies, including steatosis, steatohepatitis, and fibrosis. TCDD exerts hepatotoxic effects through activation of the aryl hydrocarbon receptor (AHR) eliciting transcrip",
+  "query": "tcdd_liver_sc"
+ },
+ {
+  "gse": "GSE224172",
+  "title": "An in vitro model of human hematopoiesis identifies a regulatory role for the aryl hydrocarbon receptor",
+  "taxon": "Homo sapiens",
+  "n_samples": 9,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2023/11/13",
+  "summary": "An in vitro model of human hematopoietic stem cell differentiation is found to allow development of multiple immune lineages through use of single-cell methods. Using this model, we demonstrate that activation of aryl hydrocarbon receptor (AHR) signaling drives human hematopoietic stem and progenitor cells (HSPCs) to differentiate towards myeloid lineages at the expense of lymphoid lineages. Gene ",
+  "query": "tcdd_liver_sc"
+ },
+ {
+  "gse": "GSE190084",
+  "title": "Single-cell transcriptomic analysis of mouse liver reveals nonparenchymal cells' intricate responses to PCB126 exposure",
+  "taxon": "Mus musculus",
+  "n_samples": 2,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2023/02/11",
+  "summary": "Polychlorinated biphenyls (PCBs) are ubiquitous and representative pollutants that pose great health risks. While cells' responses to dioxin-like PCBs tend to be studied on a bulk scale, few studies have been made from a single-cell level. Here, by using single-cell RNA sequencing, we depicted a detailed landscape of hepatic nonparenchymal cells' intricate responses to PCB126 exposure. A total of ",
+  "query": "tcdd_liver_sc"
+ },
+ {
+  "gse": "GSE193758",
+  "title": "Toxicotranscriptomics of single cell RNA-Seq and conventional RNA-Seq in TCDD-exposed testicular tissue",
+  "taxon": "Danio rerio",
+  "n_samples": 16,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2022/05/28",
+  "summary": "Spermatogenesis is a dynamic, tightly conserved process that is susceptible to environmental contaminants. Exposure to environmental contaminants such as 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD) is believed to be a cause of idiopathic male infertility. To understand TCDD-induced disruption of spermatogenesis at the single cell level, we profiled adult zebrafish testes with and without early-life",
+  "query": "tcdd_liver_sc"
+ },
+ {
+  "gse": "GSE201006",
+  "title": "AhR in the amelioration of Autoimmune Hepatitis",
+  "taxon": "Mus musculus",
+  "n_samples": 4,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2022/05/23",
+  "summary": "10X Genomics Chromium Next GEM Single cell V(D)J reagent kits v1.1 was used to process single cell suspensions from Naïve or Concanavalin A exposed mice treated with vehicle, TCDD, or FICZ. The V(D)J enrichment was omitted.",
+  "query": "tcdd_liver_sc"
+ },
+ {
+  "gse": "GSE184506",
+  "title": "Dose-response hepatic single nuclei RNA sequencing of 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD) treated mice",
+  "taxon": "Mus musculus",
+  "n_samples": 24,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2022/05/10",
+  "summary": "Dose-response is the cornerstone of safety assessments to determine risk. Innovations in transcriptomic technologies has recently led to the ability to profile gene expression at the single-cell level, enabling comprehensive assessment of adaptive and adverse responses at unprecedented resolution. To demonstrate its application of dose dependent study designs, we performed single nuclei sequencing",
+  "query": "tcdd_liver_sc"
+ },
+ {
+  "gse": "GSE166391",
+  "title": "Understanding oxidative stress responses in pancreatic islet cells by single cell RNA-sequencing analysis",
+  "taxon": "Mus musculus",
+  "n_samples": 4,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2021/05/28",
+  "summary": "We found these ROS generation is regulated by lncRNA MALAT1 and genetic ablation of MALAT1 drastically reduced ROS level and oxidative stress in mouse islet cells with the benefits of improved insulin responses in MALAT1-/- mouse. The pancreatic islet consists of five cell types (α, β and γ/PP, δ and ε cells) and very little is known about the xenobiotic detoxification pathways in these cells and ",
+  "query": "tcdd_liver_sc"
+ },
+ {
+  "gse": "GSE148339",
+  "title": "Application of singe nuclei RNA sequencing to assess the hepatic effects of   2,3,7,8-tetrachlorodibenzo-p-dioxin",
+  "taxon": "Mus musculus",
+  "n_samples": 4,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2020/09/01",
+  "summary": "Cell-specific transcriptional responses are lost in the averages of bulk RNA sequencing. We performed single nuclei RNA sequencing (snSeq) on frozen liver samples from male C57BL/6 mice in response to 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD). Approximately 19,907 hepatic genes were detected across 16,015 sequenced nuclei from control and treated samples. Eleven cell-(sub)types were identified in",
+  "query": "tcdd_liver_sc"
+ },
+ {
+  "gse": "GSE150768",
+  "title": "The environment-sensing aryl-hydrocarbon receptor inhibits the chondrogenic fate of modulated smooth muscle cells in atherosclerotic lesions",
+  "taxon": "Homo sapiens; Mus musculus",
+  "n_samples": 34,
+  "gdstype": "Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2020/07/01",
+  "summary": "Aryl-hydrocarbon receptor protects against endochondral ossification of modulated smooth muscle cells in atherosclerosis Introduction: Smooth muscle cells (SMC) play a critical role in atherosclerosis. The Aryl hydrocarbon receptor (AHR) is an environment-sensing transcription factor that contributes to vascular development, and has been implicated in coronary artery disease (CAD) risk. We hypothe",
+  "query": "tcdd_liver_sc"
+ },
+ {
+  "gse": "GSE104869",
+  "title": "AhR activity directs BRAF inhibitors resistance in metastastic melanoma",
+  "taxon": "Homo sapiens",
+  "n_samples": 12,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2018/11/29",
+  "summary": "BRAF oncogene is mutated in ~50% of human cutaneous melanomas. The BRAF V600E mutation leads to constitutive activation of the mitogen-activated protein kinase (MAPK) pathway fuelling cancer growth. The inhibitors of BRAF V600E (BRAFi), lead to massive and high response rate. However, BRAFi-resistant cells that operate as a cellular reservoir for relapses severely limits the duration of the clinic",
+  "query": "tcdd_liver_sc"
+ },
+ {
+  "gse": "GSE296378",
+  "title": "Regulatory Effects of Smoking Cessation on the Cellular Microenvironment and Differentially Expressed Genes in Precancerous Lesions of Pulmonary Nodules in Mice based on Single-Cell RNA-Sequencing and Immune Repertoire-Sequencing",
+  "taxon": "Mus musculus",
+  "n_samples": 12,
+  "gdstype": "Expression profiling by high throughput sequencing; Other",
+  "pdat": "2026/03/29",
+  "summary": "Smoking cessation is known to reduce lung cancer progression, but its impact on precancerous lesions remains largely unexplored. In this study, a smoking-induced mouse model of pulmonary precancerous lesions was established using 6-week benzo[a]pyrene (B[a]P) exposure. Lung nodules were identified through micro-MRI imaging and histopathological evaluation by H&E staining and fluorescence microscop",
+  "query": "bap_lung_sc"
+ },
+ {
+  "gse": "GSE299919",
+  "title": "Transcriptomic profiling of Debaryomyces hansenii reveals detoxification and stress responses to benzo(a)pyrene exposure",
+  "taxon": "Debaryomyces hansenii CBS767",
+  "n_samples": 15,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2025/08/04",
+  "summary": "The environmental accumulation of polycyclic aromatic hydrocarbons (PAHs), such as benzo(a)pyrene (BaP), poses significant threats to ecosystems and public health due to their persistent nature, mutagenic potential, and well-documented carcinogenicity. In this study, we investigated the ability of the extremophilic yeast Debaryomyces hansenii to activate specialized detoxification mechanisms for B",
+  "query": "bap_lung_sc"
+ },
+ {
+  "gse": "GSE290993",
+  "title": "Arsenic Toxicity in the Drosophila Brain at Single Cell Resolution",
+  "taxon": "Drosophila melanogaster",
+  "n_samples": 4,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2025/07/30",
+  "summary": "Whole brain single nuclei RNA-Seq in Arsenic exposed flies.",
+  "query": "arsenic_sc"
+ },
+ {
+  "gse": "GSE182926",
+  "title": "Single-Cell RNA-Sequencing facilitates the effectiveness analysis of clinical-dose arsenic trioxide (ATO) treatment in reactivating V272M in AML patient and in primary AML PBMCs",
+  "taxon": "Homo sapiens",
+  "n_samples": 3,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2024/08/01",
+  "summary": "The goals of this study is to reveal the transcriptome of p53-V272M rescued by ATO in AML patient and in primary AML PBMCs",
+  "query": "arsenic_sc"
+ },
+ {
+  "gse": "GSE240753",
+  "title": "Unveiling the Impact of Arsenic Toxicity on Immune Cells in Atherosclerotic Plaques: Insights from Single-Cell Multi-Omics Profiling",
+  "taxon": "Mus musculus",
+  "n_samples": 6,
+  "gdstype": "Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2023/10/03",
+  "summary": "Arsenic exposure is a global health problem and is correlated with adverse atherosclerotic outcomes in humans and in mouse models. However, the mechanisms of action are unclear. Since an atherosclerotic plaque is an amalgam of diverse immune and non-immune cells working in consortium, we set out to understand the mechanisms of arsenic-enhanced atherosclerosis in the CD45+ immune cells of atheroscl",
+  "query": "arsenic_sc"
+ },
+ {
+  "gse": "GSE150751",
+  "title": "Single-cell sequencing reveals heterogeneity effects of arsenic or/and 2,2-dichloroacetamide on zebrafish liver",
+  "taxon": "Danio rerio",
+  "n_samples": 4,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2020/10/01",
+  "summary": "Arsenic and DBPs has been found to be one of the major risk in many regions of the world. However, current understanding of thier combined toxicities are unclear. Here we used single-cell RNA sequencing to provide the transcriptome heterogeneity of 13563 liver cells obtained from zebrafishes exposed to 100μg/L arsenic, 300μg/L dichloroacetanilide (DCAcAm) and co-exposure for 23 days. Five liver ce",
+  "query": "arsenic_sc"
+ },
+ {
+  "gse": "GSE142047",
+  "title": "Defining effects of in utero arsenic exposure on immune cells in lungs of adult mice exposed to Influenza A with single cell RNA sequencing",
+  "taxon": "Mus musculus",
+  "n_samples": 6,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2020/08/19",
+  "summary": "Our recent studies have shown that adult mice exposed to inorganic arsenic exclusively in utero (100 ppb via maternal drinking water) exhibit greater lung damage and inflammation following infection with  IAV (Influenza A virus, H1N1) than control mice not exposed in utero.  We employed an unbiased single cell RNA sequencing approach to conduct a high resolution molecular analysis of recruited imm",
+  "query": "arsenic_sc"
+ },
+ {
+  "gse": "GSE251652",
+  "title": "ERα mediated gene state switching regulates the extent of the single-cell estrogen response [scRNA-seq]",
+  "taxon": "Homo sapiens",
+  "n_samples": 8,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2025/12/31",
+  "summary": "Gene regulation is complex, involving the coordination of hundreds of proteins to initiate transcription.  At individual loci, transcriptional initiation is stochastic, resulting in short periods of nascent RNA synthesis known as transcriptional bursts.  To understand how altered Estrogen Receptor α (ERα) function and cofactor recruitment regulates transcriptional bursting, we utilized single mole",
+  "query": "bpa_sc"
+ },
+ {
+  "gse": "GSE249377",
+  "title": "Exploring the Effects of Experimental Parameters and Data Modeling Approaches on In Vitro Transcriptomic Point-of-Departure Estimates",
+  "taxon": "Homo sapiens",
+  "n_samples": 5670,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2023/12/05",
+  "summary": "Multiple new approach methods (NAMs) are being developed to rapidly screen large numbers of chemicals to aid in hazard evaluation and risk assessments. High-throughput transcriptomics (HTTr) in human cell lines has been proposed as a first-tier screening approach for determining the types of bioactivity a chemical can cause (activation of specific targets vs. generalized cell stress) and for calcu",
+  "query": "bpa_sc"
+ },
+ {
+  "gse": "GSE153320",
+  "title": "Transcriptomics and relative potency assessments using Bench Mark Dose  of Bisphenol A, Bisphenol S, Bisphenol F, and 3,3',5,5'-Tetrabromobisphenol A in H9 human embryonic stem cells",
+  "taxon": "Homo sapiens",
+  "n_samples": 80,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2021/07/19",
+  "summary": "In this study we used RNA-seq to characterize the dose-response for global transcriptomic alterations induced by BPA, BPF, BPS and TBBA  in H9 (WA09) human embryonic stem (hES) cells. To assess the relative biological activity and potency of BPA and structural analogs BPS, BPF and TBBP, we examined the stem cell transcriptome in H9 hES cells following exposure to these chemicals at concentrations ",
+  "query": "bpa_sc"
+ },
+ {
+  "gse": "GSE141664",
+  "title": "Single-cell sequencing reveals heterogeneity effects of bisphenol A on zebrafish embryonic development",
+  "taxon": "Danio rerio",
+  "n_samples": 6,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2020/09/01",
+  "summary": "Embryonic period is sensitive window of bisphenol A (BPA) exposure. However, embryonic development is a highly dynamic process with changing cell populations and gene expression profiles. Heterogeneity effects of BPA on fish embryonic development remain not clear. This study applied single-cell RNA sequencing to analyze the impact of BPA exposure on transcriptome heterogeneity of 64683 cells from ",
+  "query": "bpa_sc"
+ },
+ {
+  "gse": "GSE255961",
+  "title": "Global Chromatin Remodeling and Widespread Differential Methylation Changes Underlie Brown Adipose Dysfunction and Dysregulated Metabolism in Response to Chronic Air Pollution Exposure: A Key Role for Reciprocal Regulation by HDAC9 and KDN2b",
+  "taxon": "Mus musculus",
+  "n_samples": 12,
+  "gdstype": "Genome binding/occupancy profiling by high throughput sequencing; Methylation profiling by high throughput sequencing",
+  "pdat": "2025/07/30",
+  "summary": "The Global Burden of Disease implicates air pollution in mediating as much as 20% of Type 2 Diabetes mellitus globally. This profound impact of air pollution is supported by experimental studies suggesting effects on whole body metabolism and insulin resistance. We explored the effect of chronic inhalational air pollution exposure for 12 weeks, using a whole body inhalation device in mice that all",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSE145566",
+  "title": "Exposure to Air pollution Disrupts Circadian Rhythm through Alterations in Chromatin Dynamics",
+  "taxon": "Mus musculus",
+  "n_samples": 8,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2020/12/01",
+  "summary": "Empirical evidence from both animals and humans suggest that PM2.5 (particulate matter < 2.5μm) exposure accelerates a variety of non-communicable diseases (NCDs) including Type 2 diabetes. We investigated whether chronic exposure to ambient air pollution (PM2.5), disrupts circadian rhythm to facilitate metabolic insulin resistance and compared the impact of inhaled ambient PM2.5 alone or in combi",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSE145840",
+  "title": "Metabolic Effects of Air Pollution Exposure and Reversibility  ",
+  "taxon": "Mus musculus",
+  "n_samples": 94,
+  "gdstype": "Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2020/11/05",
+  "summary": "In this study, we modeled early life air pollution exposure using C57BL/6J male mice on a controlled chow diet, exposed to real-world inhaled concentrated PM2.5 (~10x ambient level/ ~60-120g/m3) or filtered air (FA) over 14 weeks.  We investigated PM2.5 effects on phenotype, transcriptome and chromatin accessibility, compared the effects with a prototypical high-fat diet (HFD) stimulus, and exami",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSE146508",
+  "title": "Transcriptome and open chromatin analysis of 5-month mouse liver and blood by the TaRGET II consortium",
+  "taxon": "Mus musculus",
+  "n_samples": 849,
+  "gdstype": "Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2020/05/20",
+  "summary": "The TaRGET (Toxicant Exposures and Responses by Genomic and Epigenomic Regulators of Transcription) program is a research consortium funded by the National Institute of Environmental Health Sciences (NIEHS). The goal of the collaboration is to address the role of environmental exposures in disease pathogenesis as a function of epigenome perturbation, including understanding the environmental contr",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM8083511",
+  "title": "ATAC_PM3",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2025/07/30",
+  "summary": "Brown adipose tissue",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM8083510",
+  "title": "ATAC_PM2",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2025/07/30",
+  "summary": "Brown adipose tissue",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM8083509",
+  "title": "ATAC_PM1",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2025/07/30",
+  "summary": "Brown adipose tissue",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387868",
+  "title": "Mutlu_ATAC_Liver_PM2.5_5month_Male_biorep5",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Liver",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387867",
+  "title": "Mutlu_ATAC_Liver_PM2.5_5month_Male_biorep4",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Liver",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387866",
+  "title": "Mutlu_ATAC_Liver_PM2.5_5month_Male_biorep3",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Liver",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387845",
+  "title": "Mutlu_ATAC_Blood_PM2.5_5month_Male_biorep5",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Blood",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387865",
+  "title": "Mutlu_ATAC_Liver_PM2.5_5month_Male_biorep2",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Liver",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387844",
+  "title": "Mutlu_ATAC_Blood_PM2.5_5month_Male_biorep4",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Blood",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387843",
+  "title": "Mutlu_ATAC_Blood_PM2.5_5month_Male_biorep3",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Blood",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387864",
+  "title": "Mutlu_ATAC_Liver_PM2.5_5month_Male_biorep1",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Liver",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387842",
+  "title": "Mutlu_ATAC_Blood_PM2.5_5month_Male_biorep2",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Blood",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387841",
+  "title": "Mutlu_ATAC_Blood_PM2.5_5month_Male_biorep1",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Blood",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387863",
+  "title": "Mutlu_ATAC_Liver_PM2.5_5month_Female_biorep6",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Liver",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387840",
+  "title": "Mutlu_ATAC_Blood_PM2.5_5month_Female_biorep5",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Blood",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387839",
+  "title": "Mutlu_ATAC_Blood_PM2.5_5month_Female_biorep4",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Blood",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387862",
+  "title": "Mutlu_ATAC_Liver_PM2.5_5month_Female_biorep5",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Liver",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387838",
+  "title": "Mutlu_ATAC_Blood_PM2.5_5month_Female_biorep3",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Blood",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387837",
+  "title": "Mutlu_ATAC_Blood_PM2.5_5month_Female_biorep2",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Blood",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387861",
+  "title": "Mutlu_ATAC_Liver_PM2.5_5month_Female_biorep4",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Liver",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387836",
+  "title": "Mutlu_ATAC_Blood_PM2.5_5month_Female_biorep1",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Blood",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387860",
+  "title": "Mutlu_ATAC_Liver_PM2.5_5month_Female_biorep3",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Liver",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387859",
+  "title": "Mutlu_ATAC_Liver_PM2.5_5month_Female_biorep2",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Liver",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387858",
+  "title": "Mutlu_ATAC_Liver_PM2.5_5month_Female_biorep1",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Liver",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387630",
+  "title": "Biswal_ATAC_Liver_PM2.5_5month_Male_biorep6",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Liver",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387629",
+  "title": "Biswal_ATAC_Liver_PM2.5_5month_Male_biorep5",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Liver",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387628",
+  "title": "Biswal_ATAC_Liver_PM2.5_5month_Male_biorep4",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Liver",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387627",
+  "title": "Biswal_ATAC_Liver_PM2.5_5month_Male_biorep3",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Liver",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387626",
+  "title": "Biswal_ATAC_Liver_PM2.5_5month_Male_biorep2",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Liver",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387625",
+  "title": "Biswal_ATAC_Liver_PM2.5_5month_Male_biorep1",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Liver",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387622",
+  "title": "Biswal_ATAC_Liver_PM2.5_5month_Female_biorep6",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Liver",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387621",
+  "title": "Biswal_ATAC_Liver_PM2.5_5month_Female_biorep5",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Liver",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387620",
+  "title": "Biswal_ATAC_Liver_PM2.5_5month_Female_biorep4",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Liver",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387619",
+  "title": "Biswal_ATAC_Liver_PM2.5_5month_Female_biorep3",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Liver",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387618",
+  "title": "Biswal_ATAC_Liver_PM2.5_5month_Female_biorep2",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Liver",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSM4387617",
+  "title": "Biswal_ATAC_Liver_PM2.5_5month_Female_biorep1",
+  "taxon": "Mus musculus",
+  "n_samples": "",
+  "gdstype": "",
+  "pdat": "2020/05/20",
+  "summary": "5month_Liver",
+  "query": "pm25_atac"
+ },
+ {
+  "gse": "GSE317375",
+  "title": "Diet-induced chromatin states influence intestinal stem cell memory",
+  "taxon": "Mus musculus",
+  "n_samples": 70,
+  "gdstype": "Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2026/11/13",
+  "summary": "Intestinal stem cells (ISCs) integrate dietary cues through a metabolic–transcriptional axis, but whether these mechanisms create a lasting epigenetic memory remains unclear. Here, we investigate diet-induced chromatin adaptations in ISCs using a highfat Western diet (HFD) mouse model. HFD broadly remodels chromatin accessibility, altering pre-existing open regulatory regions. Many differentially ",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE329606",
+  "title": "The SAGA complex regulates γ-globin production [RNA-Seq]",
+  "taxon": "Homo sapiens",
+  "n_samples": 6,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/11/05",
+  "summary": "Sickle cell disease (SCD) and β-thalassemia are common genetic disorders caused by β-globin defects, leading to high morbidity and mortality with limited treatment options. Induction of γ-globin, a component of fetal hemoglobin (HbF), can reduce disease severity. Here, we identify the Spt-Ada1-GCN5-acetyltransferase (SAGA) complex as a novel regulator of γ-globin. This effect is mediated by the SA",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE329604",
+  "title": "The SAGA complex regulates γ-globin production [Cut & Run]",
+  "taxon": "Homo sapiens",
+  "n_samples": 12,
+  "gdstype": "Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2026/11/05",
+  "summary": "Sickle cell disease (SCD) and β-thalassemia are common genetic disorders caused by β-globin defects, leading to high morbidity and mortality with limited treatment options. Induction of γ-globin, a component of fetal hemoglobin (HbF), can reduce disease severity. Here, we identify the Spt-Ada1-GCN5-acetyltransferase (SAGA) complex as a novel regulator of γ-globin. This effect is mediated by the SA",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE325789",
+  "title": "Phosphoproteomic dysregulation drives tumor proliferation in Cushing’s disease",
+  "taxon": "Homo sapiens",
+  "n_samples": 12,
+  "gdstype": "Genome binding/occupancy profiling by high throughput sequencing; Expression profiling by high throughput sequencing",
+  "pdat": "2026/09/15",
+  "summary": "Cushing's disease causes severe morbidity and mortality, yet its underlying mechanisms are poorly understood. We used snMutiome (RNAseq +ATACseq) to compare the transcriptomes and epigenomes of CD adenomas to their normal adjacent pituitary glands",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE338876",
+  "title": "The Histone Demethylase KDM6B Restrains Hypermetabolic LYVE1+ Perivascular Macrophages and Preserves Adipogenic Balance [ATAC-seq pvm]",
+  "taxon": "Mus musculus",
+  "n_samples": 10,
+  "gdstype": "Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2026/09/01",
+  "summary": "We employed ATAC sequencing to study chromatin accessibility in adipose tissue perivascular macrophages isolated from wild-type and macrophage-specific KDM6B knockout mice fed a high-fat diet for 5 weeks. This study was designed to identify genotype-dependent changes in accessible chromatin regions associated with KDM6B deficiency during early diet-induced obesity. These data provide insights into",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE327439",
+  "title": "Single cell DNA-based sequencing of HTT CAG repeat lengths across striatal subregions and cell types in early-grade Huntington’s disease and controls",
+  "taxon": "Homo sapiens",
+  "n_samples": 46,
+  "gdstype": "Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2026/09/01",
+  "summary": "The molecular mechanisms that underlie striatal subregional and cell subtype-specific vulnerabilities and the cascade of molecular events occurring during Huntington’s disease remain poorly defined. ATAC libraries from early-grade Huntington’s disease striatum across two striatal subregions were generated and then HTT molecules were enriched by hybridization and sequencing following long-read sequ",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE314013",
+  "title": "Species-specific oxygen sensing governs the initiation of vertebrate limb regeneration",
+  "taxon": "Mus musculus",
+  "n_samples": 6,
+  "gdstype": "Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2026/05/04",
+  "summary": "Why mammals cannot regenerate limbs, unlike amphibians, presents a longstanding puzzle in biology. We show that exposing ex vivo amputated embryonic mouse limbs to subatmospheric oxygen environment, or stabilizing oxygen-sensitive HIF1A enables not only rapid wound healing, but alters cellular mechanics, and reshapes the histone landscape to prime regenerative fates. Conversely, regenerative Xenop",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE292215",
+  "title": "Species-specific oxygen sensing governs the initiation of vertebrate limb regeneration [multiomics]",
+  "taxon": "Mus musculus",
+  "n_samples": 8,
+  "gdstype": "Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2026/04/09",
+  "summary": "Why mammals cannot regenerate limbs, unlike amphibians, presents a longstanding puzzle in biology. We show that exposing ex vivo amputated embryonic mouse limbs to subatmospheric oxygen environment, or stabilizing oxygen-sensitive HIF1A enables not only rapid wound healing, but alters cellular mechanics, and reshapes the histone landscape to prime regenerative fates. Conversely, regenerative Xenop",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE309545",
+  "title": "Inflammatory signaling differentially changes chromatin accessibility and gene expression of the PD-associated kinase LRRK2 between human and mice [multiome mouse]",
+  "taxon": "Mus musculus",
+  "n_samples": 64,
+  "gdstype": "Genome binding/occupancy profiling by high throughput sequencing; Expression profiling by high throughput sequencing",
+  "pdat": "2026/03/26",
+  "summary": "The genomic locus that encodes the Leucine-rich repeat kinase 2 (LRRK2) gene is highly pleomorphic, being associated with both Parkinson’s disease (PD) and Crohn’s disease (CD). As well as coding variants that are associated with risk of PD and CD and act as gain of function kinase mutations increasing phosphorylation of RAB substrates, non-coding variants in the promoter region of LRRK2 increase ",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE309355",
+  "title": "Inflammatory signaling differentially changes chromatin accessibility and gene expression of the PD-associated kinase LRRK2 between human and mice [snRNA-Seq human]",
+  "taxon": "Homo sapiens",
+  "n_samples": 4,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/03/26",
+  "summary": "The genomic locus that encodes the Leucine-rich repeat kinase 2 (LRRK2) gene is highly pleomorphic, being associated with both Parkinson’s disease (PD) and Crohn’s disease (CD). As well as coding variants that are associated with risk of PD and CD and act as gain of function kinase mutations increasing phosphorylation of RAB substrates, non-coding variants in the promoter region of LRRK2 increase ",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE309354",
+  "title": "Inflammatory signaling differentially changes chromatin accessibility and gene expression of the PD- associated kinase LRRK2 between human and mice [multiome]",
+  "taxon": "Homo sapiens",
+  "n_samples": 24,
+  "gdstype": "Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2026/03/26",
+  "summary": "The genomic locus that encodes the Leucine-rich repeat kinase 2 (LRRK2) gene is highly pleomorphic, being associated with both Parkinson’s disease (PD) and Crohn’s disease (CD). As well as coding variants that are associated with risk of PD and CD and act as gain of function kinase mutations increasing phosphorylation of RAB substrates, non-coding variants in the promoter region of LRRK2 increase ",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE309352",
+  "title": "Inflammatory signaling differentially changes chromatin accessibility and gene expression of the PD- associated kinase LRRK2 between human and mice [ChIP-Seq]",
+  "taxon": "Homo sapiens",
+  "n_samples": 14,
+  "gdstype": "Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2026/03/26",
+  "summary": "The genomic locus that encodes the Leucine-rich repeat kinase 2 (LRRK2) gene is highly pleomorphic, being associated with both Parkinson’s disease (PD) and Crohn’s disease (CD). As well as coding variants that are associated with risk of PD and CD and act as gain of function kinase mutations increasing phosphorylation of RAB substrates, non-coding variants in the promoter region of LRRK2 increase ",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE315771",
+  "title": "HDI-STARR-seq library profiling of differential accessible chromatin regions (DARs) in livers of male, female and male treated with continuous growth hormone (cGH) mice.",
+  "taxon": "Mus musculus",
+  "n_samples": 12,
+  "gdstype": "Other",
+  "pdat": "2026/01/07",
+  "summary": "Massively parallel reporter assays (MPRA) are widely used to discover functional enhancers but have largely been limited to transfected cell models, which are confounded by vector-induced innate immune responses and lack the physiologically relevant cellular and endogenous hormonal context and chromatin environment of complex mammalian tissues. Here, we combine hydrodynamic injection (HDI) with a ",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE285872",
+  "title": "Ceramides drive colorectal cancer metastasis through a revival stemness program [ATAC-seq]",
+  "taxon": "Mus musculus",
+  "n_samples": 12,
+  "gdstype": "Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2026/01/01",
+  "summary": "We demonstrate that tumor-intrinsic ceramide metabolism is crucial in initiating colorectal cancer (CRC) metastasis, a process further enhanced by dietary fat intake",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE305528",
+  "title": "An epigenetic basis for sustained inflammatory epithelial progenitor cell states in Crohn’s disease",
+  "taxon": "Homo sapiens",
+  "n_samples": 69,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2025/12/31",
+  "summary": "Defining consequential differences in intestinal epithelial stem cells in healthy humans versus those with inflammatory bowel disease (Crohn’s disease (CD) and ulcerative colitis) is essential for the development of therapies to restore the epithelial barrier and maintain its fidelity post-injury. Our study objective was to define transcriptomic, epigenomic, and functional divergence between healt",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE299189",
+  "title": "ATAC-seq of E9.5 Neural Tube defects mouse brain and E9.5 normal mouse brains",
+  "taxon": "Mus musculus",
+  "n_samples": 4,
+  "gdstype": "Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2025/12/30",
+  "summary": "To study the chromatin accessibility  in E9.5d mouse brains with neural tube defects or control, we performed ATAC-seq  in mouse brains. NTDs mouse model: CD-1 mice (7–8 weeks old) were provided by Beijing Vital River laboratory Animal Technology Co., Ltd, China (no: 110011200105514958, 16-25g). Female CD-1 mice were fed on low folate diet for more than 8 weeks. Sexually matured individuals were m",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE311170",
+  "title": "Combining CDK12 and BAF inhibition synergistically impairs cancer cell survival in triple-negative breast cancer line",
+  "taxon": "Homo sapiens",
+  "n_samples": 66,
+  "gdstype": "Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2025/11/25",
+  "summary": "Chromatin profiling with CUT&Tag and CUTAC reveals that while CDK12 inhibition primarily disrupts DNA accessibility at Brg1 and CDK12 co-occupied promoters, BAF inhibition leads to widespread loss of enhancer accessibility. Co-inhibition causes a compounded disruption at shared co-occupied regulatory sites, resulting in loss of chromatin accessibility and transcriptional dysregulation at key loci.",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE232448",
+  "title": "Genomewide analysis of S6K1-depleted human dorsal forebrain organoids [single-cell RNA-seq]",
+  "taxon": "Homo sapiens",
+  "n_samples": 8,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2025/09/25",
+  "summary": "To elucidate the role of S6K1 in human brain development, we performed next-generation sequencing-based genomweide analysis of S6K1 knockout (KO) human embryonic stem cells (ESCs) and brain organoids. Development/differentiation-related genes were highly enriched in DEGs of S6K1 KO hESCs compared to WT hESCs. Single cell transcriptomic analysis showed unusual retinal cell development in S6K1-deple",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE214341",
+  "title": "Genomewide analysis of S6K1-depleted human dorsal forebrain organoids",
+  "taxon": "Homo sapiens",
+  "n_samples": 16,
+  "gdstype": "Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2025/09/25",
+  "summary": "This SuperSeries is composed of the SubSeries listed below.",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE305339",
+  "title": "IceQream: Quantitative chromosome accessibility analysis using physical TF models",
+  "taxon": "Mus musculus",
+  "n_samples": 10,
+  "gdstype": "Genome binding/occupancy profiling by high throughput sequencing; Expression profiling by high throughput sequencing",
+  "pdat": "2025/08/24",
+  "summary": "Single-cell mapping of chromosomal accessibility patterns has recently led to improved predictive modelling of epigenomic activity from sequence. However, quantitative models explaining the epigenome using directly interpretable components are still lacking. Here we develop IceQream (IQ), a modelling strategy and inference algorithm for regressing accessibility from sequences using physical models",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE280714",
+  "title": "The role of RUNX2 and BHLHE40 in pathologically relevant  CD4-positive tissue-resident T-cells in Crohn's disease. (scMultiome)",
+  "taxon": "Homo sapiens",
+  "n_samples": 12,
+  "gdstype": "Genome binding/occupancy profiling by high throughput sequencing; Expression profiling by high throughput sequencing",
+  "pdat": "2025/08/14",
+  "summary": "Tissue-resident T-cells (TRM) are deeply involved in immune memory at the site of inflammation. Here, we identified two key transcription factors, RUNX2 and BHLHE40 as regulators of pathologically relevant CD4-positive TRM in the inflamed gut mucosa of Crohn’s disease patients.",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE290064",
+  "title": "H3K4me3 amplifies transcription at intergenic active regulatory elements",
+  "taxon": "Homo sapiens",
+  "n_samples": 52,
+  "gdstype": "Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing; Other",
+  "pdat": "2025/07/14",
+  "summary": "This SuperSeries is composed of the SubSeries listed below.",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE273815",
+  "title": "Melanoma plasticity is regulated by mTOR-mediated crosstalk between MITF and TFE3",
+  "taxon": "Homo sapiens",
+  "n_samples": 56,
+  "gdstype": "Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2025/03/20",
+  "summary": "ATAC-seq performed to identify chromatin accessibility across the genome. CUT&RUN-seq was performed to identify and compare transcription factor and histone mark occupancy across genome of WT and MITF and TFE3 KO cells.",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE276350",
+  "title": "Maternal high-fat diet aggravates the development of atherosclerosis in offspring via epigenetic memory (ATAC-Seq CUT&Tag)",
+  "taxon": "Mus musculus",
+  "n_samples": 12,
+  "gdstype": "Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2025/01/23",
+  "summary": "Maternal exposure to a western-type diet (WD) increases the susceptibility of adult offspring to atherosclerosis. Lining the inner layer of blood vessels, fetus endothelial cells (ECs) become dysfunctional and inflamed in response to risk factors from mother through maternal and fetal blood exchange. However, the mechanism by which maternal WD promotes vascular endothelial dysfunction and atherosc",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE276351",
+  "title": "Maternal high-fat diet aggravates the development of atherosclerosis in offspring via epigenetic memory (SMART-Seq)",
+  "taxon": "Mus musculus",
+  "n_samples": 12,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2025/01/22",
+  "summary": "Maternal exposure to a western-type diet (WD) increases the susceptibility of adult offspring to atherosclerosis. Lining the inner layer of blood vessels, fetus endothelial cells (ECs) become dysfunctional and inflamed in response to risk factors from mother through maternal and fetal blood exchange. However, the mechanism by which maternal WD promotes vascular endothelial dysfunction and atherosc",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE276947",
+  "title": "Massively parallel reporter assay investigates shared genetic variants of eight psychiatric disorders",
+  "taxon": "Homo sapiens",
+  "n_samples": 10,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2025/01/16",
+  "summary": "A meta-genome-wide association study across eight psychiatric disorders has shed light on the genetic architecture of pleiotropy in major psychiatric disorders. However, the mechanisms underlying pleiotropic effects of the associated variants remain to be investigated. We conducted a massively parallel reporter assay to decipher the regulatory logic of variants with disorder-specific and pleiotrop",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE249393",
+  "title": "Maternal Malnutrition in Mice Impairs Nephrogenesis by Disrupting DNA Methylation of Regulatory Regions",
+  "taxon": "Mus musculus",
+  "n_samples": 8,
+  "gdstype": "Methylation profiling by high throughput sequencing",
+  "pdat": "2025/01/08",
+  "summary": "Maternal caloric restriction during pregnancy significantly impacts kidney development, influencing susceptibility to chronic kidney disease in adulthood. This study explores DNA methylation changes in nephron progenitor cells resulting from caloric restriction and their implications for kidney health. Global DNA hypomethylation is observed in nephron progenitors from caloric-restricted embryos, w",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE273194",
+  "title": "Cell-type-resolved chromatin accessibility in the human intestine identifies complex regulatory programs and clarifies genetic associations in Crohn's disease",
+  "taxon": "Homo sapiens",
+  "n_samples": 71,
+  "gdstype": "Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2024/12/16",
+  "summary": "Crohn's disease (CD) is a complex inflammatory bowel disease resulting from an interplay of genetic, microbial, and environmental factors. Cell-type-specific contributions to CD etiology and genetic risk are incompletely understood. Here we built a comprehensive atlas of cell-type-resolved chromatin accessibility comprising 557,310 candidate cis-regulatory elements (cCREs) in terminal ileum and as",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE278573",
+  "title": "A Meta-Atlas of the Developing Human Cortex Identifies Modules Driving Cell Subtype Specification [Chimeroid]",
+  "taxon": "Homo sapiens",
+  "n_samples": 26,
+  "gdstype": "Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2024/12/06",
+  "summary": "During development, the human brain orchestrates the generation of hundreds of diverse cell types, and recent transcriptomic atlases of the developing human cortex provide new opportunities to identify novel regulators of cell fate specification. We have conducted an integrated meta-analysis of seven recently published single-cell transcriptomic profiles of the developing human cortex, generating ",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE283082",
+  "title": "Developmental programming of Kupffer cells by maternal obesity causes fatty liver disease in the offspring [snMultiome sequencing]",
+  "taxon": "Mus musculus",
+  "n_samples": 4,
+  "gdstype": "Genome binding/occupancy profiling by high throughput sequencing; Expression profiling by high throughput sequencing",
+  "pdat": "2024/12/04",
+  "summary": "Kupffer cells (KCs) are tissue-resident macrophages which colonize the liver early during embryogenesis. KCs start to acquire a tissue-specific transcriptional signature immediately after colonizing the liver, mature together with the tissue, and adapt to the tissue’s functions. Throughout development and adulthood, KCs have distinct core functions that are essential for liver and organismal homeo",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE268491",
+  "title": "Unexpected nuclear hormone receptor and chromatin dynamics regulate estrous cycle dependent gene expression [HIF2A cKO RNA-seq]",
+  "taxon": "Mus musculus",
+  "n_samples": 14,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2024/08/01",
+  "summary": "Uteri from intact, untreated CD-1 mice were collected at 2 months of age at diestrus (CoD) or estrus (CoE). RNA-seq, ATAC-seq, ER alpha ChIP-seq, PgR ChIP-seq, Hif2a ChIP-seq and HiC-seq were performed as well as RIME assay using ER alpha as the immunoprecipitating antibody.",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE234065",
+  "title": "Unexpected nuclear hormone receptor and chromatin dynamics regulate  estrous cycle dependent gene expression",
+  "taxon": "Mus musculus",
+  "n_samples": 32,
+  "gdstype": "Genome binding/occupancy profiling by high throughput sequencing; Other; Expression profiling by high throughput sequencing",
+  "pdat": "2024/08/01",
+  "summary": "This SuperSeries is composed of the SubSeries listed below.",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE234064",
+  "title": "Unexpected nuclear hormone receptor and chromatin dynamics regulate  estrous cycle dependent gene expression [RNA-seq]",
+  "taxon": "Mus musculus",
+  "n_samples": 7,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2024/08/01",
+  "summary": "Hormone dependent uterine gene expression changes that occur during the estrous cycle suggest hormone receptor binding to chromatin may also be dynamic. Therefore, we employed a multi-faceted approach to examine in vivo dynamics of hormone receptor occupancy, chromatin accessibility and chromatin structure by combining RNA-seq, ATAC-seq, HiC-seq and ChIP-seq for estrogen receptor alpha (ERα) and p",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE234061",
+  "title": "Unexpected nuclear hormone receptor and chromatin dynamics regulate  estrous cycle dependent gene expression [Hi-C]",
+  "taxon": "Mus musculus",
+  "n_samples": 2,
+  "gdstype": "Other",
+  "pdat": "2024/08/01",
+  "summary": "Hormone dependent uterine gene expression changes that occur during the estrous cycle suggest hormone receptor binding to chromatin may also be dynamic. Therefore, we employed a multi-faceted approach to examine in vivo dynamics of hormone receptor occupancy, chromatin accessibility and chromatin structure by combining RNA-seq, ATAC-seq, HiC-seq and ChIP-seq for estrogen receptor alpha (ERα) and p",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE234059",
+  "title": "Unexpected nuclear hormone receptor and chromatin dynamics regulate  estrous cycle dependent gene expression [ChIP-seq]",
+  "taxon": "Mus musculus",
+  "n_samples": 7,
+  "gdstype": "Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2024/08/01",
+  "summary": "Hormone dependent uterine gene expression changes that occur during the estrous cycle suggest hormone receptor binding to chromatin may also be dynamic. Therefore, we employed a multi-faceted approach to examine in vivo dynamics of hormone receptor occupancy, chromatin accessibility and chromatin structure by combining RNA-seq, ATAC-seq, HiC-seq and ChIP-seq for estrogen receptor alpha (ERα) and p",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE234051",
+  "title": "Unexpected nuclear hormone receptor and chromatin dynamics regulate  estrous cycle dependent gene expression [ATAC-seq]",
+  "taxon": "Mus musculus",
+  "n_samples": 2,
+  "gdstype": "Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2024/08/01",
+  "summary": "Hormone dependent uterine gene expression changes that occur during the estrous cycle suggest hormone receptor binding to chromatin may also be dynamic. Therefore, we employed a multi-faceted approach to examine in vivo dynamics of hormone receptor occupancy, chromatin accessibility and chromatin structure by combining RNA-seq, ATAC-seq, HiC-seq and ChIP-seq for estrogen receptor alpha (ERα) and p",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE237882",
+  "title": "Regulatory mechanism of Sox9 gene expression in chondrocytes [ATAC-seq]",
+  "taxon": "Mus musculus",
+  "n_samples": 4,
+  "gdstype": "Genome binding/occupancy profiling by high throughput sequencing",
+  "pdat": "2024/06/10",
+  "summary": "The transcription factor Sox9 (Sry-Related HMG-Box gene 9) is essential in chondrogenesis. The expression Sox9 is regulated by 1.5Mb long range genomic region in temporospatial manner and genome translocation or deletion which affect Sox9 expression cause campomelic dysplasia (CD), characterized by skeletal malformations. Although functional mechanism of Sox9 are well studied so far, regulatory me",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE260842",
+  "title": "Multimodal single cell analyses reveal mechanisms of perianal fistula in diverse Crohn’s disease [scRNA-seq]",
+  "taxon": "Homo sapiens",
+  "n_samples": 34,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2024/05/16",
+  "summary": "Crohn’s disease (CD) is a chronic inflammatory condition that can affect any part of the gastrointestinal tract. African ancestry (AA) populations have been substantially under-represented in genome-wide association studies (GWAS) of CD and inflammatory bowel disease (IBD), reflecting in part the lower prevalence of CD in AA compared to European ancestry (EA) populations. Importantly, CD complicat",
+  "query": "cadmium_atac"
+ },
+ {
+  "gse": "GSE314118",
+  "title": "Aging Reconfigures Extracellular Vesicle Signaling, Driving Environmental Inflammatory Susceptibility",
+  "taxon": "Mus musculus",
+  "n_samples": 8,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2026/11/05",
+  "summary": "Aging increases organismal vulnerability to environmental stressors, yet the molecular programs governing this susceptibility remain unclear. Here we identify a vesicular mechanism of aging-environment interaction, showing that extracellular vesicles (EVs) from aged lungs act as pro-inflammatory messengers that amplify tissue injury induced by fine particulate matter (PM2.5). Upon exposure, aged m",
+  "query": "pm25_bulk_lung"
+ },
+ {
+  "gse": "GSE252423",
+  "title": "Disease type and Pathogenic Mechanism induced by PM2.5 in five Human Systems using omics and Human Disease Database [IOSE+Nthy]",
+  "taxon": "Homo sapiens",
+  "n_samples": 12,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2025/12/31",
+  "summary": "PM2.5 can harm various systems in the human body. However, due to the limitations of epidemiology and toxicology, the disease types, shared and specific pathogenic mechanisms induced by PM2.5 in various human systems are not comprehensive and in-depth revealed. Thus, this study conducted an analysis on the aforementioned issues in respiratory, circulatory, endocrine, female, and male urogenital sy",
+  "query": "pm25_bulk_lung"
+ },
+ {
+  "gse": "GSE252421",
+  "title": "Disease type and Pathogenic Mechanism induced by PM2.5 in five Human Systems using omics and Human Disease Database [Sertoli]",
+  "taxon": "Homo sapiens",
+  "n_samples": 6,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2025/12/31",
+  "summary": "PM2.5 can harm various systems in the human body. However, due to the limitations of epidemiology and toxicology, the disease types, shared and specific pathogenic mechanisms induced by PM2.5 in various human systems are not comprehensive and in-depth revealed. Thus, this study conducted an analysis on the aforementioned issues in respiratory, circulatory, endocrine, female, and male urogenital sy",
+  "query": "pm25_bulk_lung"
+ },
+ {
+  "gse": "GSE285128",
+  "title": "Developmental exposure to air pollution particulates increases asthma severity, alters the RNA transcriptome, and DNA methylation in female adult progeny [RNA-Seq]",
+  "taxon": "Mus musculus",
+  "n_samples": 23,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2025/03/12",
+  "summary": "Maternal exposure to particulate air pollution increases the incidence and severity of asthma in offspring, yet the mechanisms for this are unclear. Known susceptibility loci are a minor component of this effect.  We interrogate a mouse allergic airway disease model to assess epigenetic associations between maternal air pollution exposure and asthma-like responses in offspring. Maternal air pollut",
+  "query": "pm25_bulk_lung"
+ },
+ {
+  "gse": "GSE286058",
+  "title": "Copper-enriched automotive brake wear particles perturb human alveolar cellular homeostasis",
+  "taxon": "Homo sapiens",
+  "n_samples": 24,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2025/02/13",
+  "summary": "Background Airborne fine particulate matter with diameter < 2.5 μm (PM2.5), can reach the alveolar regions of the lungs, and is associated with over 4 million premature deaths per year worldwide. However, the source-specific consequences of PM2.5 exposure remain poorly understood. A major, but unregulated source is car brake wear, which exhaust emission reduction measures have not diminished.AQ1  ",
+  "query": "pm25_bulk_lung"
+ },
+ {
+  "gse": "GSE286089",
+  "title": "Esrrg inhibition protects against PM2.5-induced asthma aggravation by reducing Pde3b",
+  "taxon": "Mus musculus",
+  "n_samples": 9,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2025/01/13",
+  "summary": "PM2.5 exposure is closely linked to the exacerbation of asthma. Estrogen related receptor gamma (Esrrg), an orphan nuclear receptor, exerts a crucial role as a transcription factor in various metabolic diseases. Nevertheless, the impacts of Esrrg on PM2.5-triggered asthma aggravation have not been investigated. Herein, ovalbumin (OVA)-induced asthmatic mice were exposed to PM2.5 to establish a mou",
+  "query": "pm25_bulk_lung"
+ },
+ {
+  "gse": "GSE252420",
+  "title": "Disease type and Pathogenic Mechanism induced by PM2.5 in five Human Systems using omics and Human Disease Database [EA.hy926]",
+  "taxon": "Homo sapiens",
+  "n_samples": 6,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2024/12/08",
+  "summary": "PM2.5 can harm various systems in the human body. However, due to the limitations of epidemiology and toxicology, the disease types, shared and specific pathogenic mechanisms induced by PM2.5 in various human systems are not comprehensive and in-depth revealed. Thus, this study conducted an analysis on the aforementioned issues in respiratory, circulatory, endocrine, female, and male urogenital sy",
+  "query": "pm25_bulk_lung"
+ },
+ {
+  "gse": "GSE246730",
+  "title": "Characterization of Risks and Pathogenesis of Respiratory Diseases Caused by Rural Atmospheric PM2.5",
+  "taxon": "Homo sapiens",
+  "n_samples": 15,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2024/12/08",
+  "summary": "Forty-six percent of the world's population resides in rural areas, the majority of whom belong to vulnerable and low-income groups. They mainly use cheap solid fuels for cooking and heating, which release a large amount of PM2.5 and cause adverse effects to human health. PM2.5 exhibits urban-rural differences in its health risk to the respiratory system. However, the majority of research on this ",
+  "query": "pm25_bulk_lung"
+ },
+ {
+  "gse": "GSE229544",
+  "title": "Epithelial MAPK Signaling Directs Endothelial NRF2 Signaling and IL-8 Secretion in the Alveolar Capillary Region",
+  "taxon": "Homo sapiens",
+  "n_samples": 24,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2024/12/01",
+  "summary": "Particulate matter 2.5 (PM2.5) deposition in the lung’s alveolar capillary region (ACR) is significantly associated with respiratory disease development, yet the underlying molecular mechanisms are not completely understood. Adverse responses that promote respiratory disease development involve orchestrated, intercellular signaling between multiple cell types within the ACR.  Our goal was to use a",
+  "query": "pm25_bulk_lung"
+ },
+ {
+  "gse": "GSE244959",
+  "title": "Transcriptomics profile of human bronchial epithelial cells exposed to influenza virus (H3N2) and ambient fine particles",
+  "taxon": "Homo sapiens",
+  "n_samples": 12,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2023/11/15",
+  "summary": "Fine particulate matter (PM2.5) pollution remains a major threat to public health. As the physical barrier against inhaled air pollutants, airway epithelium is a primary target for PM2.5 and influenza viruses, two major environmental insults. Recent studies have shown that PM2.5 and influenza viruses may interact to aggravate airway inflammation, an essential event in the pathogenesis of diverse p",
+  "query": "pm25_bulk_lung"
+ },
+ {
+  "gse": "GSE220306",
+  "title": "Effect of PM2.5-treatment and TMPRSS2-overexpression on gene expression in lung cancer cells",
+  "taxon": "Homo sapiens",
+  "n_samples": 4,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2023/05/23",
+  "summary": "Lung cancer cells exposed to PM2.5 for 90 days or overexpressed TMPRSS2 were employed as a cellular model to evaluate the effects of long-term exposure to PM2.5 on lung cancer progression.",
+  "query": "pm25_bulk_lung"
+ },
+ {
+  "gse": "GSE220252",
+  "title": "Effect of PM2.5-treated and TMPRSS2-overexpressed on gene expression in lung cancer cells",
+  "taxon": "Homo sapiens",
+  "n_samples": 2,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2023/05/23",
+  "summary": "Lung cancer cells exposed to PM2.5 for 90 days or overexpressed TMPRSS2 were employed as a cellular model to evaluate the effects of long-term exposure to PM2.5 on lung cancer progression.",
+  "query": "pm25_bulk_lung"
+ },
+ {
+  "gse": "GSE228200",
+  "title": "Type 1 diabetes and diet-induced obesity predispose C57BL/6J mice to PM2.5-induced lung injury: a comparative study",
+  "taxon": "Mus musculus",
+  "n_samples": 36,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2023/04/23",
+  "summary": "Background: Pre-existing metabolic diseases may predispose individuals to particulate matter (PM)-induced adverse health effects. However, the differences in susceptibility of various metabolic diseases to PM-induced lung injury and their underlying mechanisms have yet to be fully elucidated.   Results: Type 1 diabetes (T1D) or diet-induced obesity (DIO) murine models were generated by injection o",
+  "query": "pm25_bulk_lung"
+ },
+ {
+  "gse": "GSE216512",
+  "title": "Biotoxic effects and gene expression regulation of urban PM2.5 in southwestern China",
+  "taxon": "Homo sapiens",
+  "n_samples": 15,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2022/10/30",
+  "summary": "Atmospheric fine particulate matter (PM2.5) causes severe haze in China and is regarded as a threat to human health. The health effects of PM2.5 vary location by location due to the variation in size distribution, chemical com position, and sources. In this study, the cytotoxicity effect, oxidative stress, and gene expression regulation of PM2.5 in Chengdu and Chongqing, two typical urban areas in",
+  "query": "pm25_bulk_lung"
+ },
+ {
+  "gse": "GSE206733",
+  "title": "Long-term exposure to PM2.5 aggravates pulmonary fibrosis and acute lung injury by disrupting Nrf2-mediated antioxidant function",
+  "taxon": "Mus musculus",
+  "n_samples": 9,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2022/06/24",
+  "summary": "To investigate the difference damage patterns bewteen short-term and long-term exposure to PM2.5 particulate matter",
+  "query": "pm25_bulk_lung"
+ },
+ {
+  "gse": "GSE143787",
+  "title": "Differential contribution of bone marrow derived-monocytes to the lung tissue resident alveolar macrophages and persistent lung inflammation with chronic air pollution exposure",
+  "taxon": "Mus musculus",
+  "n_samples": 36,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2020/09/08",
+  "summary": "Chronic exposure to ambient particulate matter <2.5µ (PM2.5) has been linked to cardiopulmonary disease. Tissue-resident (TR) alveolar macrophages (AΦ) are long lived, self-renew and critical to the health impact of inhalational insults. There is inadequate understanding of the impact of PM2.5 exposure on nature/time course of transcriptional responses and the proliferation/maintenance of AΦ inclu",
+  "query": "pm25_bulk_lung"
+ },
+ {
+  "gse": "GSE144770",
+  "title": "Genome-wide analysis reveals mucociliary remodeling of the airway epithelium induced by PM2.5",
+  "taxon": "Homo sapiens",
+  "n_samples": 42,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2020/04/10",
+  "summary": "Air pollution particulate matter <2.5 microns (PM2.5) is associated with poor respiratory outcomes. Mechanisms underlying PM2.5-induced lung pathobiology are poorly understood, but likely involve cellular and molecular changes to the airway epithelium. We extracted and chemically characterized the organic and water-soluble components of contemporary ambient air pollution PM2.5 samples. We then det",
+  "query": "pm25_bulk_lung"
+ },
+ {
+  "gse": "GSE132572",
+  "title": "Identification of long non-coding RNA and circular RNA in mice after intra-tracheal instillation with fine particulate matter",
+  "taxon": "Mus musculus",
+  "n_samples": 6,
+  "gdstype": "Expression profiling by high throughput sequencing; Non-coding RNA profiling by high throughput sequencing",
+  "pdat": "2020/01/01",
+  "summary": "Intra-tracheal instillation of saline or PM2.5 was performed in BALB/c Mice once a week for consecutive eight weeks. Genomewide transcriptome profiling of coding genes, long non-coding RNAs (lncRNA), and circular RNAs (circRNA) in mice lung were done by ribosomal RNA-depleted RNA sequencing.",
+  "query": "pm25_bulk_lung"
+ },
+ {
+  "gse": "GSE122493",
+  "title": "HT-Seq analysis of mouse lung after PM2.5 exposure",
+  "taxon": "Mus musculus",
+  "n_samples": 4,
+  "gdstype": "Methylation profiling by high throughput sequencing; Expression profiling by high throughput sequencing",
+  "pdat": "2019/10/24",
+  "summary": "This SuperSeries is composed of the SubSeries listed below.",
+  "query": "pm25_bulk_lung"
+ },
+ {
+  "gse": "GSE122492",
+  "title": "Transcriptomics analysis of gene expression in mouse lung after PM2.5 exposure",
+  "taxon": "Mus musculus",
+  "n_samples": 2,
+  "gdstype": "Expression profiling by high throughput sequencing",
+  "pdat": "2019/10/24",
+  "summary": "Total RNA was isolated from mouse lung harvested at different stages using TRIzol® Reagent (Ambion). mRNA was extracted with using Dynabeads® mRNA Purification Kit (Ambion) and subjected to TURBO™ DNase (Invitrogen) treatment at 37°C for 30 min and ethanol precipitation. Thus purified mRNA was used for RNA-Seq library construction. Libraries were directly constructed using the KAPA Stranded mRNA-S",
+  "query": "pm25_bulk_lung"
+ }
+]

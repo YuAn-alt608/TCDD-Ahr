@@ -1,0 +1,21 @@
+{
+  "n_cells": 11756,
+  "n_samples": 8,
+  "compartment_sizes": {
+    "Fib": 2833,
+    "SMC": 2557,
+    "Mac": 2079,
+    "EC": 1876,
+    "other": 1351,
+    "T": 1060
+  },
+  "module_mean_by_compartment": {
+    "SMC|ModSMC": 0.206,
+    "Mac|LAM": 0.398,
+    "EC|ECpanel": 0.289,
+    "SMC|Matrix": 0.162,
+    "Fib|Matrix": 0.687
+  },
+  "provenance": "GSE131778 human coronary scRNA-seq (Wirka et al. 2019)",
+  "no_condition_labels": true
+}

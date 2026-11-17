@@ -1,0 +1,29 @@
+{
+ "het_promoters": 2016,
+ "het_with_human_ortholog_and_peak_table": 658,
+ "het_measured_in_human": 594,
+ "background_genes_sampled": 3000,
+ "ahr_motif_positive": 1169,
+ "base_rate_ahr_prom_background": 0.109217999126256,
+ "base_rate_ahr_prom_het": 0.11447811447811448,
+ "mwu_peak_vs_no_peak_delta_wt_p": 0.47399890422821045,
+ "candidates": {
+  "A": 10,
+  "B": 6,
+  "C": 6
+ },
+ "positive_control": {
+  "canonical_targets": [
+   "CYP1A1",
+   "CYP1B1",
+   "AHRR",
+   "TIPARP",
+   "NQO1",
+   "AHR"
+  ],
+  "ahr_tcdd_enrichment_10kb": 0.0,
+  "ahr_tcdd_enrichment_50kb": 1.5280135823429541,
+  "verdict": "public AHR ChIP fails its positive control: canonical TCDD targets carry no more peaks than random genes, so the ahr_prom outcome above is uninformative about binding and is reported only to show that resolution/liftOver was not the reason"
+ },
+ "note": "Gene-level re-test of the bin-level negative (22b): outcome is an AHR TCDD peak within 2 kb of the human TSS; controls are DMSO peaks, TCF21 peaks and expression stratification in human SMC."
+}
